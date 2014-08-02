@@ -15,7 +15,11 @@
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
-          <a id="logo" href="/"></a>
+          {% if page.url == "/index.html" %}
+            <span id="logo"></span>
+          {% else %}
+            <a id="logo" href="/"></a>
+          {% endif %}
           <a id="forkme_banner" href="https://github.com/DIGImend">View on GitHub</a>
           <div id="project_text">
             <div id="project_title">DIGImend</div>
