@@ -67,29 +67,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 36px;
-  font-weight: 700;
-}
-
-h2 {
   padding-bottom: 10px;
   font-size: 32px;
   background: url('../images/bg_hr.png') repeat-x bottom;
 }
 
-h3 {
+h2 {
   font-size: 24px;
 }
 
-h4 {
+h3 {
   font-size: 21px;
 }
 
-h5 {
+h4 {
   font-size: 18px;
 }
 
-h6 {
+h5 {
   font-size: 16px;
 }
 
@@ -283,6 +278,11 @@ Full-Width Styles
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
 }
+#forkme_banner:hover, #forkme_banner:focus {
+  background-color: #f2f2f2;
+  background-image: url('../images/bluetocat.png');
+  color: #0090ff;
+}
 
 #header_wrap {
   background: #212121;
@@ -294,23 +294,67 @@ Full-Width Styles
 }
 
 #header_wrap .inner {
-  padding: 50px 10px 30px 10px;
+  padding-top: 0;
+  padding-bottom: 0;
+  overflow: auto;
 }
 
+#logo {
+  display: block;
+  width: 170px;
+  height: 208px;
+  float: left;
+  padding: 0;
+  background-image: url("../images/logo.png");
+  background-repeat: no-repeat;
+  background-position: left 14px;
+}
+
+#project_text {
+  position: absolute;
+  bottom: 68px;
+  left: 180px;
+}
 #project_title {
-  margin: 0;
   color: #fff;
   font-size: 42px;
   font-weight: 700;
   text-shadow: #111 0px 0px 10px;
+  line-height: 1;
 }
 
 #project_tagline {
   color: #fff;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 300;
   background: none;
   text-shadow: #111 0px 0px 10px;
+  line-height: 1;
+}
+
+header nav {
+  position: absolute;
+  bottom: 0;
+}
+
+header nav a, header nav span {
+  display: inline-block;
+  padding: 10px;
+  color: #fff;
+  z-index: 10;
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  font-weight: 700;
+}
+
+header nav a {
+  background-color: #0090ff;
+}
+
+header nav a:hover, header nav a:focus, header nav span {
+  background-color: #f2f2f2;
+  color: #0090ff;
 }
 
 #downloads {
@@ -354,8 +398,6 @@ Full-Width Styles
 
 #main_content_wrap {
   background: #f2f2f2;
-  border-top: 1px solid #111;
-  border-bottom: 1px solid #111;
 }
 
 #main_content {
@@ -387,30 +429,30 @@ Small Device Styles
   }
 
   #project_title {
-  font-size: 32px;
+    font-size: 32px;
   }
 
-  h1 {
-    font-size: 28px;
-  }
-
-  h2 {
-    font-size: 24px;
-  }
-
-  h3 {
-    font-size: 21px;
-  }
-
-  h4 {
+  #project_tagline {
     font-size: 18px;
   }
 
-  h5 {
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 21px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  h4 {
     font-size: 14px;
   }
 
-  h6 {
+  h5 {
     font-size: 12px;
   }
 
