@@ -278,6 +278,11 @@ Full-Width Styles
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
 }
+/* Preload hover background */
+#forkme_banner:before {
+  content: url('../images/bluetocat.png');
+  display: none;
+}
 #forkme_banner:hover, #forkme_banner:focus {
   background-color: #f2f2f2;
   background-image: url('../images/bluetocat.png');
