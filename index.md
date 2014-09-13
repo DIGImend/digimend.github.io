@@ -1,6 +1,5 @@
 ---
 title: Digitizer mending
-layout: page
 ---
 The DIGImend project aims at improving Linux support for generic graphics
 tablets.
