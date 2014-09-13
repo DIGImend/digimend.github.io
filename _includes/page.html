@@ -7,7 +7,7 @@
     <meta name="description" content="DIGImend - digitizer mending. Improving Linux support for graphics tablets." />
     <link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/stylesheet.css">
     <link rel="shortcut icon" href="/images/favicon.ico">
-    <title>DIGImend - {{page.title}}</title>
+    <title>DIGImend - {{include.title}}</title>
   </head>
 
   <body>
@@ -51,8 +51,12 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <h1>{{page.title}}</h1>
-        {{ content }}
+        <h1>{{include.title}}</h1>
+        {% if include.include != null %}
+            {% include {{include.include}} %}
+        {% else %}
+            {{ content }}
+        {% endif %}
       </section>
     </div>
 
