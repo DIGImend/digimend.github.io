@@ -357,7 +357,8 @@ header nav a {
   background-color: #0090ff;
 }
 
-header nav a:hover, header nav a:focus, header nav span {
+header nav a:hover, header nav a:focus, header nav a.selected,
+header nav span {
   background-color: #f2f2f2;
   color: #0090ff;
 }
