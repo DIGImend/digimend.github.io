@@ -415,6 +415,34 @@ header nav span {
 }
 
 
+.status-unknown {
+    background-color: #F8F8E2;
+}
+
+.status-unsupported {
+    background-color: #F8E2E2;
+}
+
+.status-supported {
+    background-color: #E2F8E2;
+}
+
+.tablet_list {
+    width: 100%;
+}
+
+.tablet_list th.original_model {
+    width: 8em;
+}
+
+.tablet_list th.sold_as {
+    width: 16em;
+}
+
+.tablet img {
+    margin: 0 0;
+    vertical-align: top;
+}
 
 /*******************************************************************************
 Small Device Styles

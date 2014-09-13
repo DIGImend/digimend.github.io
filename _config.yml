@@ -1,6 +1,11 @@
 defaults:
     -
         scope:
+            path: "tablets"
+        values:
+            layout: tablet
+    -
+        scope:
             path: ""
         values:
             layout: page

@@ -1,1 +1,87 @@
-{{ content }}
+{% assign page_dir = page.url | remove: 'index.html' %}
+<table class="tablet">
+<tbody>
+    <tr>
+        <th>Vendor</th>
+        <td>{{page.VID}}</td>
+        <td>{{page.vendor}}</td>
+        <th rowspan="2">Photo</th>
+        <td rowspan="2">
+            <a href="{{page_dir}}/{{page.image}}.jpg">
+                <img src="{{page_dir}}{{page.image}}.thumb.jpg">
+            </a>
+        </td>
+    </tr>
+    <tr>
+        <th>Product</th>
+        <td>{{page.PID}}</td>
+        <td>{{page.product}}</td>
+    </tr>
+    <tr>
+        <th>Specs</th>
+        <td colspan="2">
+            {{page.working_area.width}}&Prime;&times;{{page.working_area.height}}&Prime;,
+            {{page.working_area.resolution}} LPI{% unless page.report_rate == null %},
+                {{page.report_rate}} RPS
+            {% endunless %},
+            {{page.pen.pressure_levels}} PL{% if page.pen.tilt_detection %},
+                tilt-sensitive
+            {% endif %}{% unless page.mouse == null %},
+                {{page.mouse}} mouse
+            {% endunless %}
+        </td>
+        <th>Status</th>
+        {% if page.supported == true %}
+            {% assign status_class = "status-supported" %}
+        {% elsif page.supported == false %}
+            {% assign status_class = "status-unsupported" %}
+        {% else %}
+            {% assign status_class = "status-unknown" %}
+        {% endif %}
+        <td class="{{status_class}}">
+            {% if page.supported == true %}
+                Supported
+                {% assign p_supported_in_size = page.supported_in | size %}
+                {% if p_supported_in_size != 0 %}
+                    in:
+                    <ul>
+                        {% unless page.supported_in.kernel == null %}
+                            <li>Linux kernel {{page.supported_in.kernel}}</li>
+                        {% endunless %}
+                        {% unless page.supported_in.wacom == null %}
+                            <li>xf86-input-wacom {{page.supported_in.wacom}}</li>
+                        {% endunless %}
+                    </ul>
+                {% endif %}
+            {% elsif page.supported == false %}
+                Unsupported
+            {% else %}
+                Unknown
+            {% endif %}
+        </td>
+    </tr>
+    {% unless page.frame_controls == null %}
+        <tr>
+            <th>Frame controls</th><td colspan="4">{{page.frame_controls}}</td>
+        </tr>
+    {% endunless %}
+    {% assign sold_as_size = page.sold_as | size %}
+    {% assign maybe_sold_as_size = page.maybe_sold_as | size %}
+    {% unless sold_as_size == 0 and maybe_sold_as_size == 0 %}
+        <tr>
+            <th>Sold as</th>
+            <td colspan="4">
+                <ul>
+                    {% for n in page.sold_as %}
+                        <li>{{n}}</li>
+                    {% endfor %}
+                    {% for n in page.maybe_sold_as %}
+                        <li>{{n}} (?)</li>
+                    {% endfor %}
+                </ul>
+            </td>
+        </tr>
+    {% endunless %}
+</tbody>
+</table>
+{{content}}
