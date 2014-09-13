@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="DIGImend - digitizer mending. Improving Linux support for graphics tablets." />
+    <link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/stylesheet.css">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+    <title>DIGImend - {{page.title}}</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          {% if page.url == "/index.html" %}
+            <span id="logo"></span>
+          {% else %}
+            <a id="logo" href="/"></a>
+          {% endif %}
+          <a id="forkme_banner" href="https://github.com/DIGImend">View on GitHub</a>
+          <div id="project_text">
+            <div id="project_title">DIGImend</div>
+            <div id="project_tagline">Improving Linux support for graphics tablets.</div>
+          </div>
+          <nav>
+            {% assign sorted_pages = site.pages | sort:"weight" %}
+            {% for p in sorted_pages %}
+              {% assign depth = p.url | split: '/' | size %}
+              {% if p.title != null and depth == 3 %}
+                {% if page.url == p.url %}
+                  <span>{{p.title}}</span>
+                {% else %}
+                  <a href="{{p.url | remove: 'index.html'}}">{{p.title}}</a>
+                {% endif %}
+              {% endif %}
+            {% endfor %}
+          </nav>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>{{page.title}}</h1>
+        {{ content }}
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+  </body>
+</html>
