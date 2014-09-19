@@ -48,6 +48,10 @@ table {
 Theme Styles
 *******************************************************************************/
 
+html {
+    overflow-y: scroll;
+}
+
 body {
   box-sizing: border-box;
   color:#373737;
