@@ -427,7 +427,7 @@ header nav span {
     background-color: #E2F8E2;
 }
 
-.tablet_list {
+.tablet_list, .tablet {
     width: 100%;
 }
 
@@ -439,9 +439,26 @@ header nav span {
     width: 16em;
 }
 
+.tablet th {
+    width: 3.5em;
+    text-align: right;
+}
+
+.tablet td.tablet-data1 {
+    width: 2.25em;
+}
+
+.tablet td.tablet-data2 {
+    width: 13em;
+}
+
 .tablet img {
     margin: 0 0;
     vertical-align: top;
+}
+
+.tablet td.tablet-photo {
+    text-align: center;
 }
 
 /*******************************************************************************
