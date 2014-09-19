@@ -1,4 +1,4 @@
 [submodule "tablets"]
 	path = tablets
-	url = git@github.com:DIGImend/tablets.git
+	url = https://github.com/DIGImend/tablets.git
 	branch = master
