@@ -18,18 +18,6 @@
         <td>{{page.product}}</td>
     </tr>
     <tr>
-        <th>Specs</th>
-        <td colspan="2">
-            {{page.working_area.width}}&Prime;&times;{{page.working_area.height}}&Prime;,
-            {{page.working_area.resolution}} LPI{% unless page.report_rate == null %},
-                {{page.report_rate}} RPS
-            {% endunless %},
-            {{page.pen.pressure_levels}} PL{% if page.pen.tilt_detection %},
-                tilt-sensitive
-            {% endif %}{% unless page.mouse == null %},
-                {{page.mouse}} mouse
-            {% endunless %}
-        </td>
         <th>Status</th>
         {% if page.supported == true %}
             {% assign status_class = "status-supported" %}
@@ -38,7 +26,7 @@
         {% else %}
             {% assign status_class = "status-unknown" %}
         {% endif %}
-        <td class="{{status_class}}">
+        <td colspan="2" class="{{status_class}}">
             {% if page.supported == true %}
                 Supported
                 {% assign p_supported_in_size = page.supported_in | size %}
@@ -58,6 +46,18 @@
             {% else %}
                 Unknown
             {% endif %}
+        </td>
+        <th>Specs</th>
+        <td>
+            {{page.working_area.width}}&Prime;&times;{{page.working_area.height}}&Prime;,
+            {{page.working_area.resolution}} LPI{% unless page.report_rate == null %},
+                {{page.report_rate}} RPS
+            {% endunless %},
+            {{page.pen.pressure_levels}} PL{% if page.pen.tilt_detection %},
+                tilt-sensitive
+            {% endif %}{% unless page.mouse == null %},
+                {{page.mouse}} mouse
+            {% endunless %}
         </td>
     </tr>
     {% unless page.frame_controls == null %}
