@@ -2,9 +2,10 @@
 title: People
 weight: 50
 ---
-Many people and some companies have contributed to the project since it was
+Many people and several companies have contributed to the project since it was
 started in 2008. Some of those are listed below. If you feel you're missing
-from this list, please send a message to Nikolai Kondrashov &lt;[spbnick@gmail.com][1]&gt;.
+from this list, please send a message to Nikolai Kondrashov
+&lt;[spbnick@gmail.com][1]&gt;.
 
 <dl>
     <dt>Nikolai Kondrashov</dt>
