@@ -30,6 +30,12 @@ from this list, please send a message to Nikolai Kondrashov
     <dd>Collecting tablet diagnostics and testing.</dd>
 </dl>
 
+The project logo is based on the tablet icon from the free Streamline Icon Set
+by [Webalys][101] and [Stycil Tux][102] by [Two Lof Bees][103].
+
 [1]: mailto:spbnick@gmail.com
 [2]: https://sourceforge.net/sendmessage.php?touser=2781797
 [3]: https://sourceforge.net/sendmessage.php?touser=3843953
+[101]: http://www.webalys.com
+[102]: http://www.twolofbees.com/artwork.php?iid=870
+[103]: http://www.twolofbees.com
