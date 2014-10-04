@@ -1,5 +1,6 @@
 ---
 title: Tablet setup in GIMP
+summary: How to setup a tablet to work with The GIMP
 ---
 GIMP is an acronym for GNU Image Manipulation Program. It is a freely
 distributed program for such tasks as photo retouching, image

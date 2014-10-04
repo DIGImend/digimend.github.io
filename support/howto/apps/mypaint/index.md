@@ -1,5 +1,6 @@
 ---
 title: Tablet setup in MyPaint
+summary: How to setup a tablet to work in MyPaint
 ---
 MyPaint is a fast and easy open-source graphics application for digital
 painters. It lets you focus on the art instead of the program. You work

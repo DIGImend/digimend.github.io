@@ -1,5 +1,6 @@
 ---
 title: Tablet setup in GTK-based applications (Gimp, Mypaint)
+summary: How to setup a tablet to work in GTK-based applications
 ---
 GTK
 ---

@@ -1,5 +1,6 @@
 ---
 title: Tablet setup in Krita
+summary: How to setup a tablet to work in Krita
 ---
 Krita is a flexible painting application that makes creating art from
 scratch or existing resources a fun and productive experience. With many

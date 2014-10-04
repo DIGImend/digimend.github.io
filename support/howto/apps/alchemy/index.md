@@ -1,5 +1,6 @@
 ---
 title: Tablet setup in Alchemy
+summary: How to setup a tablet to work with Alchemy
 ---
 Alchemy is an open drawing project aimed at exploring how we can sketch,
 draw, and create on computers in new ways. Alchemy isn’t software for

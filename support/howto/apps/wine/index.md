@@ -1,5 +1,6 @@
 ---
 title: Tablet setup in Wine
+summary: How to setup a tablet to work with Windows applications running under Wine
 ---
 Wine lets you run Windows software on other operating systems. With
 Wine, you can install and run these applications just like you would in

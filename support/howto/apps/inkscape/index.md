@@ -1,5 +1,6 @@
 ---
 title: Tablet setup in Inkscape
+summary: How to setup a tablet to work in Inkscape
 ---
 An Open Source vector graphics editor, with capabilities similar to
 Illustrator, CorelDraw, or Xara X, using the W3C standard Scalable

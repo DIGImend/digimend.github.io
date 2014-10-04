@@ -1,5 +1,6 @@
 ---
 title: Tablet setup in Synfig Studio
+summary: How to setup a tablet to work in Synfig Studio
 ---
 Synfig Studio is a free and open-source 2D animation software, designed
 as powerful industrial-strength solution for creating film-quality

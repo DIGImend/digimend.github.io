@@ -1,5 +1,6 @@
 ---
 title: Tablet setup in Blender
+summary: How to setup a tablet to work with Blender
 ---
 Blender is one of the most popular Open Source 3D graphics applications
 in the world. Aimed at media professionals and artists world-wide,
