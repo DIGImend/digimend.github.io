@@ -42,7 +42,7 @@ click on *Configure Extended Input Devices*. On the **Configure Input
 Devices** dialogue select your device and set the *Mode* to *Screen*.
 
 ![GIMP 2.8 Configure Input Devices dialogue to set up your
-pen](gimp28lucky.png "GIMP 2.8 Configure Input Devices dialogue to set up your pen")
+pen](28lucky.png "GIMP 2.8 Configure Input Devices dialogue to set up your pen")
 
 Device status
 -------------
@@ -54,7 +54,7 @@ background colour, brush, pattern and gradient assigned to the enabled
 devices.
 
 ![GIMP 2.8 Device Status dialogue to keep track of the settings for your
-devices](gimp28devstatus.png "GIMP 2.8 Device Status dialogue to keep track of the settings for your devices")
+devices](28devstatus.png "GIMP 2.8 Device Status dialogue to keep track of the settings for your devices")
 
 Paint dynamics
 --------------
@@ -71,7 +71,7 @@ of your pen. For example, you can set the opacity curve to be different
 than linear (see the image bellow).
 
 ![GIMP 2.8 Pressure curve
-editing](gimp28devcurve.png "GIMP 2.8 Pressure curve editing")
+editing](28devcurve.png "GIMP 2.8 Pressure curve editing")
 
 Configuring multiple input devices
 ----------------------------------
@@ -83,7 +83,7 @@ bit of luck, actually. It could happen that, as you plug and unplug your
 device, only the mouse appears on this dialogue.
 
 ![GIMP 2.8 Configure Input Devices dialogue with only the
-mouse](gimp28wrong.png "GIMP 2.8 Configure Input Devices dialogue with only the mouse")
+mouse](28wrong.png "GIMP 2.8 Configure Input Devices dialogue with only the mouse")
 
 Actually this is a bug in GIMP. You can find the bug report
 [here](https://bugzilla.gnome.org/show_bug.cgi?id=674253). At the
@@ -123,7 +123,7 @@ Then, after building the modified GIMP, you can configure both of your
 devices:
 
 ![GIMP 2.8 Configure Input Devices dialogue both
-devices](gimp28good.png "GIMP 2.8 Configure Input Devices dialogue both devices")
+devices](28good.png "GIMP 2.8 Configure Input Devices dialogue both devices")
 
 GIMP 2.6.12
 ===========
@@ -141,7 +141,7 @@ Input Devices** dialogue select your device and set *Mode* to *Screen*.
 The following image illustrates these steps.
 
 ![GIMP 2.6.12 Configure Input Devices dialogue to set up your
-pen](gimp2612inputdev.png "GIMP 2.6.12 Configure Input Devices dialogue to set up your pen")
+pen](2612inputdev.png "GIMP 2.6.12 Configure Input Devices dialogue to set up your pen")
 
 For more information please visit the GIMP User Manual ([Chapter 11.
 Pimp my
@@ -156,7 +156,7 @@ dialogue. In order to display it select *Windows\>Dockable
 Dialogues\>Device status* from the menu.
 
 ![GIMP 2.6.12 Device status
-dialogue](gimp2612devicestatus.png "GIMP 2.6.12 Device status dialogue")
+dialogue](2612devicestatus.png "GIMP 2.6.12 Device status dialogue")
 
 For more information please visit the GIMP User Manual ([5.2. Device
 Status
@@ -175,7 +175,7 @@ affect the opacity, size or the colour of the brush by clicking the
 appropriate check boxes.
 
 ![GIMP 2.6.12 Setting up brush
-dynamics](gimp2612brushdynamics.png "GIMP 2.6.12 Setting up brush dynamics")
+dynamics](2612brushdynamics.png "GIMP 2.6.12 Setting up brush dynamics")
 
 For more information please visit the GIMP User Manual ([3. Paint
 Tools](http://docs.gimp.org/2.6/en/gimp-tools-paint.html#gimp-tools-paint-options)).

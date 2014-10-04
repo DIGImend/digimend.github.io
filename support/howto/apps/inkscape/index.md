@@ -30,7 +30,7 @@ that dialogue select your device and set it's mode to *Screen*. The
 following image illustrate this step.
 
 ![Inkscape 0.48 Input Devices dialogue to set up your
-tablet](inkscapedevicesetup.png "Inkscape 0.48 Input Devices dialogue to set up your tablet")
+tablet](devicesetup.png "Inkscape 0.48 Input Devices dialogue to set up your tablet")
 
 If you have a multiple input device (like a pen with a mouse), it a bit
 hard to choose which one is the pen, since they both got identical
@@ -41,7 +41,7 @@ you want to configure.
 
 ![Inkscape 0.48 Input Devices dialogue hardware information for checking
 the axes
-count](inkscapeaxescount.png "Inkscape 0.48 Input Devices dialogue hardware information for checking the axes count")
+count](axescount.png "Inkscape 0.48 Input Devices dialogue hardware information for checking the axes count")
 
 Then go back to the *Configuration* tab and set up your device as
 described above.
@@ -55,7 +55,7 @@ Start drawing on the *Test Area* and you can see the how the data from
 the pen changes.
 
 ![Inkscape 0.48 Input Devices dialogue hardware
-test](inkscapedevicetest.png "Inkscape 0.48 Input Devices dialogue hardware test")
+test](devicetest.png "Inkscape 0.48 Input Devices dialogue hardware test")
 
 (On the dialogue the axes represents the following data (from top to
 bottom): X coordinate, Y coordinate, Pressure, X tilt, Y tilt, Wheel.)

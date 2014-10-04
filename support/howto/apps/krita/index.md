@@ -44,7 +44,7 @@ select *Settings\>Configure Krita* and on the **Preferences** dialogue
 select *Tablet settings*. Then you can modify the curve as you wish.
 
 ![Krita 2.4 Setting up the global pressure
-curve](krita24globalpressure.png "Krita 2.4 Setting up the global pressure curve")
+curve](24globalpressure.png "Krita 2.4 Setting up the global pressure curve")
 
 ### Brush pressure curves
 
@@ -56,7 +56,7 @@ the same curve. If not checked, you will be able to assign different
 curves to all active input sensors.\<sup\>[2]\</sup\>
 
 ![Krita 2.4 Setting up a pressure curve for a
-brush](krita24pressureopacity.png "Krita 2.4 Setting up a pressure curve for a brush")
+brush](24pressureopacity.png "Krita 2.4 Setting up a pressure curve for a brush")
 
 The same way you can set up different pressure curves for *Size*,
 *Spacing*, *Mirror*, *Softness*, *Sharpness*, *Rotation*, *Scatter*,
