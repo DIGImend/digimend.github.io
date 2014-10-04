@@ -64,7 +64,7 @@ If you choose *Pressure Shapes* in the *Create* menu, you can see how
 pressure is affecting the shape of what you are drawing.
 
 ![Alchemy Beta 008 Selecting pressure shapes for
-drawing](../alchemypressureshapes.png "Alchemy Beta 008 Selecting pressure shapes for drawing")
+drawing](alchemypressureshapes.png "Alchemy Beta 008 Selecting pressure shapes for drawing")
 
 More information
 ================
