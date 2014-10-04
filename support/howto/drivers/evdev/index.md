@@ -6,11 +6,7 @@ In this HOWTO the basics of graphics tablet configuration and set up
 with the evdev X driver is covered. For many the tablet will work out of
 the box and not require anything further. However depending on your
 system set up and work flow you may want to make a few tweaks and this
-page shows you how to do that. If your tablet isn't supported or you are
-having problems proceed to
-[Collecting\_tablet\_diagnostics](Collecting_tablet_diagnostics "wikilink")
-and contact
-[spbnick@gmail.com](mailto:spbnick@gmail.com?subject=Tablet%20issue).
+page shows you how to do that.
 
 Determining your tablet OEM
 ===========================
