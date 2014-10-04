@@ -8,8 +8,8 @@ summary: How to setup a tablet to work in Inkscape
 > illustrations, icons, logos, diagrams, maps and web graphics. Inkscape uses
 > the W3C open standard SVG (Scalable Vector Graphics) as its native format,
 > and is free and open-source software.
-
-— [Inkscape Overview](http://inkscape.org/en/about/)
+>
+> — [Inkscape Overview](http://inkscape.org/en/about/)
 
 In this tutorial you can learn how to setup your tablet, which uses the
 evdev driver, working in this software.

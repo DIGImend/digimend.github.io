@@ -7,8 +7,8 @@ summary: How to setup a tablet to work with Blender
 > be used to create 3D visualizations such as stills or broadcast and cinema
 > quality videos. The incorporation of a real-time 3D engine allows for the
 > creation of 3D interactive content for stand-alone playback.
-
-— [Blender 2.6 Manual Introduction](http://wiki.blender.org/index.php/Doc:2.6/Manual/Introduction)
+>
+> — [Blender 2.6 Manual Introduction](http://wiki.blender.org/index.php/Doc:2.6/Manual/Introduction)
 
 In this tutorial you can learn how to setup your tablet, which uses the
 evdev driver, working in this software.

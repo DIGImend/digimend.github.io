@@ -5,8 +5,8 @@ summary: How to setup a tablet to work with Windows applications running under W
 > Wine (originally an acronym for "Wine Is Not an Emulator") is a
 > compatibility layer capable of running Windows applications on several
 > POSIX-compliant operating systems, such as Linux, Mac OSX, & BSD.
-
-— [About Wine](https://www.winehq.org/about/)
+>
+> — [About Wine](https://www.winehq.org/about/)
 
 In this tutorial you can learn how to setup your tablet, which uses the
 evdev driver, working in this software.

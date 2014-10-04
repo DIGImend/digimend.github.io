@@ -7,8 +7,8 @@ summary: How to setup a tablet to work in Synfig Studio
 > animation using a vector and bitmap artwork. It eliminates the need to
 > create animation frame-by frame, allowing you to produce 2D animation of
 > a higher quality with fewer people and resources.
-
-— [About Synfig Studio](http://www.synfig.org/)
+>
+> — [About Synfig Studio](http://www.synfig.org/)
 
 In this tutorial you can learn how to setup your tablet, which uses the
 evdev driver, working in this software.

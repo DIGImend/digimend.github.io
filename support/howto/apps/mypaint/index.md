@@ -6,8 +6,8 @@ summary: How to setup a tablet to work in MyPaint
 > painters. It lets you focus on the art instead of the program. You work on
 > your canvas with minimum distractions, bringing up the interface only when
 > you need it.
-
-— [About MyPaint](http://mypaint.intilinux.com/)
+>
+> — [About MyPaint](http://mypaint.intilinux.com/)
 
 In this tutorial you can learn how to setup your tablet, which uses the
 evdev driver, working in this software.

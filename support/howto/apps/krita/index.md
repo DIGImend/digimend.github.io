@@ -7,8 +7,8 @@ summary: How to setup a tablet to work in Krita
 > artists, illustrators, concept artists, matte and texture painters and in
 > the digital VFX industry.Krita is free software, licensed under the GNU
 > Public License, version 2 or later.
-
-— [About Krita](https://krita.org/about/press/)
+>
+> — [About Krita](https://krita.org/about/press/)
 
 In this tutorial you can learn how to setup your tablet, which uses the
 evdev driver, working in this software.

@@ -16,8 +16,8 @@ summary: How to setup a tablet to work with The GIMP
 > scripting interface allows everything from the simplest task to the most
 > complex image manipulation procedures to be easily
 > scripted.
-
-— [GIMP Introduction](http://www.gimp.org/about/introduction.html)
+>
+> — [GIMP Introduction](http://www.gimp.org/about/introduction.html)
 
 In this tutorial you can learn how to setup a tablet, which uses the
 evdev driver, to work with this application.
@@ -33,8 +33,8 @@ Linux distributions.
 > including some highly requested ones. Keep reading to find out exactly
 > what GIMP 2.8 has to offer you in areas such as the user interface,
 > tools, and plug-ins.
-
-— [GIMP 2.8 Release Notes](http://www.gimp.org/release-notes/gimp-2.8.html)
+>
+> — [GIMP 2.8 Release Notes](http://www.gimp.org/release-notes/gimp-2.8.html)
 
 Tablet setup
 ------------
