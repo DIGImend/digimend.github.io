@@ -2,11 +2,13 @@
 title: Tablet setup in Krita
 summary: How to setup a tablet to work in Krita
 ---
-Krita is a flexible painting application that makes creating art from
-scratch or existing resources a fun and productive experience. With many
-powerful brush engines and unique features as multi- hand and mirrored
-painting, Krita explicitly supports creating concept art, storyboards,
-textures, matte paintings and illustrations.\<sup\>[1]\</sup\>
+> Krita is the full-featured free digital painting studio for artists who want
+> to create professional work from start to end. Krita is used by comic book
+> artists, illustrators, concept artists, matte and texture painters and in
+> the digital VFX industry.Krita is free software, licensed under the GNU
+> Public License, version 2 or later.
+
+— [About Krita](https://krita.org/about/press/)
 
 In this tutorial you can learn how to setup your tablet, which uses the
 evdev driver, working in this software.
@@ -53,7 +55,7 @@ brush. If you click on *Opacity* then you can set up your opacity curve
 for the brush. If the *Use curve* is not checked the pressure is
 ignored. If *Use the same curve* checked, all inputs sensors will use
 the same curve. If not checked, you will be able to assign different
-curves to all active input sensors.\<sup\>[2]\</sup\>
+curves to all active input sensors.
 
 ![Krita 2.4 Setting up a pressure curve for a
 brush](24pressureopacity.png "Krita 2.4 Setting up a pressure curve for a brush")
@@ -71,10 +73,3 @@ the software](http://krita.org/).
 If you have any questions or suggestions according to this article
 please send an email to the [DIGI*mend* users mailing
 list](mailto:digimend-users@lists.sourceforge.net).
-
-References
-==========
-
-1\. [Krita 2.4 – Creative
-Freedom](http://www.krita.org/about-krita-2-4.pdf)\<br\> 2.
-<http://permalink.gmane.org/gmane.comp.kde.cvs/1138910>

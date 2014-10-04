@@ -2,13 +2,14 @@
 title: Tablet setup in Alchemy
 summary: How to setup a tablet to work with Alchemy
 ---
-Alchemy is an open drawing project aimed at exploring how we can sketch,
-draw, and create on computers in new ways. Alchemy isn’t software for
-creating finished artwork, but rather a sketching environment that
-focuses on the absolute initial stage of the creation process.
-Experimental in nature, Alchemy lets you brainstorm visually to explore
-an expanded range of ideas and possibilities in a serendipitous
-way.\<sup\>[1]\</sup\>
+> Alchemy is an open drawing project aimed at exploring how we can sketch,
+> draw, and create on computers in new ways. Alchemy isn’t software for
+> creating finished artwork, but rather a sketching environment that focuses
+> on the absolute initial stage of the creation process.  Experimental in
+> nature, Alchemy lets you brainstorm visually to explore an expanded range of
+> ideas and possibilities in a serendipitous way.
+
+— [Alchemy website](http://al.chemy.org/)
 
 In this tutorial you can learn how to setup a tablet, which uses the
 evdev driver, to work with this application.
@@ -75,8 +76,3 @@ website](http://al.chemy.org/).
 If you have any questions or suggestions according to this article
 please send an email to the [DIGI*mend* users mailing
 list](mailto:digimend-users@lists.sourceforge.net).
-
-References
-==========
-
-1\. <http://al.chemy.org/>

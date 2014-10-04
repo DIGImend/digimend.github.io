@@ -2,11 +2,13 @@
 title: Tablet setup in Synfig Studio
 summary: How to setup a tablet to work in Synfig Studio
 ---
-Synfig Studio is a free and open-source 2D animation software, designed
-as powerful industrial-strength solution for creating film-quality
-animation using a vector and bitmap artwork. It eliminates the need to
-create animation frame-by frame, allowing you to produce 2D animation of
-a higher quality with fewer people and resources.\<sup\>[1]\</sup\>
+> Synfig Studio is a free and open-source 2D animation software, designed
+> as powerful industrial-strength solution for creating film-quality
+> animation using a vector and bitmap artwork. It eliminates the need to
+> create animation frame-by frame, allowing you to produce 2D animation of
+> a higher quality with fewer people and resources.
+
+— [About Synfig Studio](http://www.synfig.org/)
 
 In this tutorial you can learn how to setup your tablet, which uses the
 evdev driver, working in this software.
@@ -37,8 +39,3 @@ website of the software](http://www.synfig.org).
 If you have any questions or suggestions according to this article
 please send an email to the [DIGI*mend* users mailing
 list](mailto:digimend-users@lists.sourceforge.net).
-
-References
-==========
-
-1\. <http://www.synfig.org>

@@ -2,20 +2,22 @@
 title: Tablet setup in GIMP
 summary: How to setup a tablet to work with The GIMP
 ---
-GIMP is an acronym for GNU Image Manipulation Program. It is a freely
-distributed program for such tasks as photo retouching, image
-composition and image authoring.
+> GIMP is an acronym for GNU Image Manipulation Program. It is a freely
+> distributed program for such tasks as photo retouching, image
+> composition and image authoring.
+>
+> It has many capabilities. It can be used as a simple paint program, an
+> expert quality photo retouching program, an online batch processing
+> system, a mass production image renderer, an image format converter,
+> etc.
+>
+> GIMP is expandable and extensible. It is designed to be augmented with
+> plug-ins and extensions to do just about anything. The advanced
+> scripting interface allows everything from the simplest task to the most
+> complex image manipulation procedures to be easily
+> scripted.
 
-It has many capabilities. It can be used as a simple paint program, an
-expert quality photo retouching program, an online batch processing
-system, a mass production image renderer, an image format converter,
-etc.
-
-GIMP is expandable and extensible. It is designed to be augmented with
-plug-ins and extensions to do just about anything. The advanced
-scripting interface allows everything from the simplest task to the most
-complex image manipulation procedures to be easily
-scripted.\<sup\>[1]\</sup\>
+— [GIMP Introduction](http://www.gimp.org/about/introduction.html)
 
 In this tutorial you can learn how to setup a tablet, which uses the
 evdev driver, to work with this application.
@@ -27,10 +29,12 @@ This version has been released on the 3rd of May 2012. This is the
 latest stable version of GIMP which is the default version in many new
 Linux distributions.
 
-This version of GIMP is equipped with a wealth of new features,
-including some highly requested ones. Keep reading to find out exactly
-what GIMP 2.8 has to offer you in areas such as the user interface,
-tools, and plug-ins.\<sup\>[2]\</sup\>
+> This version of GIMP is equipped with a wealth of new features,
+> including some highly requested ones. Keep reading to find out exactly
+> what GIMP 2.8 has to offer you in areas such as the user interface,
+> tools, and plug-ins.
+
+— [GIMP 2.8 Release Notes](http://www.gimp.org/release-notes/gimp-2.8.html)
 
 Tablet setup
 ------------
@@ -189,10 +193,3 @@ website](http://www.gimp.org/).
 If you have any questions or suggestions concerning this article please
 e-mail the DIGI*mend* users mailing list [DIGI*mend* users mailing
 list](mailto:digimend-users@lists.sourceforge.net).
-
-References
-==========
-
-1.
-[http://www.gimp.org/about/introduction.html\<br\>](http://www.gimp.org/about/introduction.html<br>)
-2. <http://www.gimp.org/release-notes/gimp-2.8.html>

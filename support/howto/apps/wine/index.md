@@ -2,9 +2,11 @@
 title: Tablet setup in Wine
 summary: How to setup a tablet to work with Windows applications running under Wine
 ---
-Wine lets you run Windows software on other operating systems. With
-Wine, you can install and run these applications just like you would in
-Windows.\<sup\>[1]\</sup\>
+> Wine (originally an acronym for "Wine Is Not an Emulator") is a
+> compatibility layer capable of running Windows applications on several
+> POSIX-compliant operating systems, such as Linux, Mac OSX, & BSD.
+
+— [About Wine](https://www.winehq.org/about/)
 
 In this tutorial you can learn how to setup your tablet, which uses the
 evdev driver, working in this software.
@@ -35,8 +37,3 @@ software](http://www.winehq.org/).
 If you have any questions or suggestions according to this article
 please send an email to the [DIGI*mend* users mailing
 list](mailto:digimend-users@lists.sourceforge.net).
-
-References
-==========
-
-1\. <http://www.winehq.org/about/>

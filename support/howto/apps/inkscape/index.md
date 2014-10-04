@@ -2,14 +2,14 @@
 title: Tablet setup in Inkscape
 summary: How to setup a tablet to work in Inkscape
 ---
-An Open Source vector graphics editor, with capabilities similar to
-Illustrator, CorelDraw, or Xara X, using the W3C standard Scalable
-Vector Graphics (SVG) file format.
+> Inkscape is professional quality vector graphics software which runs on
+> Windows, Mac OS X and Linux. It is used by design professionals and
+> hobbyists worldwide, for creating a wide variety of graphics such as
+> illustrations, icons, logos, diagrams, maps and web graphics. Inkscape uses
+> the W3C open standard SVG (Scalable Vector Graphics) as its native format,
+> and is free and open-source software.
 
-Inkscape supports many advanced SVG features (markers, clones, alpha
-blending, etc.) and great care is taken in designing a streamlined
-interface. It is very easy to edit nodes, perform complex path
-operations, trace bitmaps and much more. \<sup\>[1]\</sup\>
+— [Inkscape Overview](http://inkscape.org/en/about/)
 
 In this tutorial you can learn how to setup your tablet, which uses the
 evdev driver, working in this software.
@@ -69,8 +69,3 @@ the software](http://inkscape.org/).
 If you have any questions or suggestions according to this article
 please send an email to the [DIGI*mend* users mailing
 list](mailto:digimend-users@lists.sourceforge.net).
-
-References
-==========
-
-1\. <http://inkscape.org/>

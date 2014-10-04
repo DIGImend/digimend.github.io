@@ -2,10 +2,12 @@
 title: Tablet setup in MyPaint
 summary: How to setup a tablet to work in MyPaint
 ---
-MyPaint is a fast and easy open-source graphics application for digital
-painters. It lets you focus on the art instead of the program. You work
-on your canvas with minimum distractions, bringing up the interface only
-when you need it.\<sup\>[1]\</sup\>
+> MyPaint is a fast and easy open-source graphics application for digital
+> painters. It lets you focus on the art instead of the program. You work on
+> your canvas with minimum distractions, bringing up the interface only when
+> you need it.
+
+— [About MyPaint](http://mypaint.intilinux.com/)
 
 In this tutorial you can learn how to setup your tablet, which uses the
 evdev driver, working in this software.
@@ -68,8 +70,3 @@ the software](http://mypaint.intilinux.com/).
 If you have any questions or suggestions according to this article
 please send an email to the [DIGI*mend* users mailing
 list](mailto:digimend-users@lists.sourceforge.net).
-
-References
-==========
-
-1\. <http://mypaint.intilinux.com/>

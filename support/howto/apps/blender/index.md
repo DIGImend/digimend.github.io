@@ -2,12 +2,13 @@
 title: Tablet setup in Blender
 summary: How to setup a tablet to work with Blender
 ---
-Blender is one of the most popular Open Source 3D graphics applications
-in the world. Aimed at media professionals and artists world-wide,
-Blender can be used to create 3D visualizations such as stills or
-broadcast and cinema quality videos. The incorporation of a real-time 3D
-engine allows for the creation of 3D interactive content for stand-alone
-playback.\<sup\>[1]\</sup\>
+> Blender is one of the most popular Open Source 3D graphics applications in
+> the world. Aimed at media professionals and artists world-wide, Blender can
+> be used to create 3D visualizations such as stills or broadcast and cinema
+> quality videos. The incorporation of a real-time 3D engine allows for the
+> creation of 3D interactive content for stand-alone playback.
+
+— [Blender 2.6 Manual Introduction](http://wiki.blender.org/index.php/Doc:2.6/Manual/Introduction)
 
 In this tutorial you can learn how to setup your tablet, which uses the
 evdev driver, working in this software.
@@ -38,8 +39,3 @@ the software](http://www.blender.org/).
 If you have any questions or suggestions according to this article
 please send an email to the [DIGI*mend* users mailing
 list](mailto:digimend-users@lists.sourceforge.net).
-
-References
-==========
-
-1\. <http://wiki.blender.org/index.php/Doc:2.6/Manual/Introduction>
