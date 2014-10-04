@@ -35,7 +35,7 @@
                 {% assign p_dir_len = p_dir | size %}
                 {% assign page_base = page_dir | truncate: p_dir_len, "" %}
                 {% if p_dir == page_base %}
-                  {% assign p_extra_attrs = 'class="selected"' %}
+                  {% assign p_extra_attrs = ' class="selected"' %}
                 {% else %}
                   {% assign p_extra_attrs = '' %}
                 {% endif %}
