@@ -32,7 +32,9 @@
               {% assign p_depth = p.url | split: '/' | size %}
               {% if p.title != null and p_depth == 3 %}
                 {% assign p_dir = p.url | remove: 'index.html' %}
-                {% if page_dir contains p_dir %}
+                {% assign p_dir_len = p_dir | size %}
+                {% assign page_base = page_dir | truncate: p_dir_len, "" %}
+                {% if p_dir == page_base %}
                   {% assign p_extra_attrs = 'class="selected"' %}
                 {% else %}
                   {% assign p_extra_attrs = '' %}
