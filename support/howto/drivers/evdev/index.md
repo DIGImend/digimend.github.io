@@ -244,7 +244,7 @@ would use:
 monitor*** \<pre\> xinput set-prop "device name" --type=float
 "Coordinate Transformation Matrix" 0.5 0 0.5 0 1 0 0 0 1 \</pre\> For
 more information see the [Coordinate Transformation
-Matrix](http://sourceforge.net/apps/mediawiki/linuxwacom/index.php?title=Dual_and_Multi-Monitor_Set_Up#Coordinate_Transformation_Matrix)
+Matrix](http://linuxwacom.sourceforge.net/wiki/index.php/Dual_and_Multi-Monitor_Set_Up#Coordinate_Transformation_Matrix)
 on the Linux Wacom Project's mediawiki.
 
 Left handed tablet orientation
