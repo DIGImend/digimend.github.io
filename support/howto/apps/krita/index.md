@@ -16,10 +16,10 @@ evdev driver, working in this software.
 Krita 2.4
 =========
 
-Krita 2.4 is the second release of Krita that is ready for end users,
-and the first that is ready for professional digital
-artists.\<sup\>[1]\</sup\>\<br\> This version has been released on the
-12th of April 2012. This is the latest stable version of this program.
+*"Krita 2.4 is the second release of Krita that is ready for end users, and
+the first that is ready for professional digital artists."* — Krita 2.4
+release notes. This version has been released on the 12th of April 2012. This
+is the latest stable version of this program.
 
 Tablet setup
 ------------
