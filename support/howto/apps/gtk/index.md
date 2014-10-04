@@ -27,7 +27,7 @@ Devices. On the Configure Input Devices dialogue select your device and
 set the 'Mode' to 'Screen'.
 
 ![Gimp 2.8 Configure Input Devices dialogue to set up your
-pen](w_gimp28lucky.png "Gimp 2.8 Configure Input Devices dialogue to set up your pen")
+pen](../gimp28lucky.png "Gimp 2.8 Configure Input Devices dialogue to set up your pen")
 
 #### Device status
 
@@ -37,7 +37,7 @@ menu. On this window you can see the tool, foreground color, background
 color, brush, pattern and gradient assigned to the enabled devices.
 
 ![Gimp 2.8 Device Status dialogue to keep track of the settings for your
-devices](w_gimp28devstatus.png "Gimp 2.8 Device Status dialogue to keep track of the settings for your devices")
+devices](../gimp28devstatus.png "Gimp 2.8 Device Status dialogue to keep track of the settings for your devices")
 
 #### Pressure curves
 
@@ -50,7 +50,7 @@ you can set up the opacity curve to be different than linear. (See the
 image bellow.)
 
 ![Gimp 2.8 Pressure curve
-editing](w_gimp28devcurve.png "Gimp 2.8 Pressure curve editing")
+editing](../gimp28devcurve.png "Gimp 2.8 Pressure curve editing")
 
 #### Configuring multiple input devices
 
@@ -61,7 +61,7 @@ lucky actually. It could happen that, as you plug and uplug your device,
 on this dialogue only the mouse appears.
 
 ![Gimp 2.8 Configure Input Devices dialogue with only the
-mouse](w_gimp28wrong.png "Gimp 2.8 Configure Input Devices dialogue with only the mouse")
+mouse](../gimp28wrong.png "Gimp 2.8 Configure Input Devices dialogue with only the mouse")
 
 Actually this is a bug in gimp you can find the bug report here:
 <https://bugzilla.gnome.org/show_bug.cgi?id=674253>. At the moment the
@@ -101,7 +101,7 @@ part of the if statement like this:
 And after you have compiled gimp you can configure both of your devices:
 
 ![Gimp 2.8 Configure Input Devices dialogue both
-devices](w_gimp28good.png "Gimp 2.8 Configure Input Devices dialogue both devices")
+devices](../gimp28good.png "Gimp 2.8 Configure Input Devices dialogue both devices")
 
 Gimp 2.6.12
 -----------
@@ -113,7 +113,7 @@ select your device and set mode to 'Screen'. The following image
 illustrates these steps.
 
 ![Gimp 2.6.12 Configure Input Devices dialogue to set up your
-pen](w_gimp2612inputdev.png "Gimp 2.6.12 Configure Input Devices dialogue to set up your pen")
+pen](../gimp2612inputdev.png "Gimp 2.6.12 Configure Input Devices dialogue to set up your pen")
 
 #### Device status
 
@@ -123,7 +123,7 @@ dialogue. In order to display it select *Windows\>Dockable
 Dialogues\>Device status* from the menu.
 
 ![Gimp 2.6.12 Device status
-dialogue](w_gimp2612devicestatus.png "Gimp 2.6.12 Device status dialogue")
+dialogue](../gimp2612devicestatus.png "Gimp 2.6.12 Device status dialogue")
 
 #### Brush dynamics
 
@@ -135,7 +135,7 @@ you can set the pressure affect the opacity, size or the color of the
 brush by clicking the appropriate checkboxes.
 
 ![Gimp 2.6.12 Setting up brush
-dynamics](w_gimp2612brushdynamics.png "Gimp 2.6.12 Setting up brush dynamics")
+dynamics](../gimp2612brushdynamics.png "Gimp 2.6.12 Setting up brush dynamics")
 
 MyPaint
 -------
@@ -148,7 +148,7 @@ device dialog* from the menu. On the Input dialog select your device and
 set the mode to 'Screen'. The following image illustrates the settings.
 
 ![MyPaint 1.0 GTK input device
-dialogue](w_mypaint_setup.png "MyPaint 1.0 GTK input device dialogue")
+dialogue](../mypaint_setup.png "MyPaint 1.0 GTK input device dialogue")
 
 #### Pressure curve
 
@@ -157,7 +157,7 @@ In order to change the pressure curve used by your devices choose
 change the curve as you wish.
 
 ![MyPaint 1.0 Preferences
-dialogue](w_mypaint_curve.png "MyPaint 1.0 Preferences dialogue")
+dialogue](../mypaint_curve.png "MyPaint 1.0 Preferences dialogue")
 
 #### Device testing
 
@@ -168,5 +168,5 @@ the Input Device Test dialogue how the pressure and other data of the
 pen changes.
 
 ![MyPaint 1.0 Input Device Test
-dialogue](w_mypaintdevicetest.png "MyPaint 1.0 Input Device Test dialogue")
+dialogue](../mypaintdevicetest.png "MyPaint 1.0 Input Device Test dialogue")
 

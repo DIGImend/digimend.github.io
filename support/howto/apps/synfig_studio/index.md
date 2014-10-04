@@ -25,7 +25,7 @@ menu. On the **Input** dialogue select your device and set the *Mode* to
 *Screen*. The following image illustrates this step.
 
 ![Synfig Studio 0.63 Input dialogue to set up your
-device](w_synfigstudiodevicesetup.png "Synfig Studio 0.63 Input dialogue to set up your device")
+device](../synfigstudiodevicesetup.png "Synfig Studio 0.63 Input dialogue to set up your device")
 
 More information
 ================

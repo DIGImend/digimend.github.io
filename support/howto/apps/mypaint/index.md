@@ -24,7 +24,7 @@ device and set the *Mode* to *Screen*. The following image illustrates
 the settings.
 
 ![MyPaint 1.0 GTK input device
-dialogue](w_mypaint_setup.png "MyPaint 1.0 GTK input device dialogue")
+dialogue](../mypaint_setup.png "MyPaint 1.0 GTK input device dialogue")
 
 \<!----\>
 
@@ -36,7 +36,7 @@ In order to change the pressure curve used by your devices choose
 dialogue change the curve as you wish.
 
 ![MyPaint 1.0 Preferences
-dialogue](w_mypaint_curve.png "MyPaint 1.0 Preferences dialogue")
+dialogue](../mypaint_curve.png "MyPaint 1.0 Preferences dialogue")
 
 Device testing
 --------------
@@ -48,7 +48,7 @@ the Input Device Test dialogue how the pressure and other data of the
 pen changes.
 
 ![MyPaint 1.0 Input Device Test
-dialogue](w_mypaintdevicetest.png "MyPaint 1.0 Input Device Test dialogue")
+dialogue](../mypaintdevicetest.png "MyPaint 1.0 Input Device Test dialogue")
 
 MyPaint 0.9
 ===========
