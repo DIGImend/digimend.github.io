@@ -73,7 +73,3 @@ References
 ==========
 
 1\. <http://mypaint.intilinux.com/>
-
-[Category:Tablet setup in
-applications](Category:Tablet setup in applications "wikilink")
-

@@ -42,7 +42,3 @@ References
 ==========
 
 1\. <http://www.synfig.org>
-
-[Category:Tablet setup in
-applications](Category:Tablet setup in applications "wikilink")
-

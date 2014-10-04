@@ -40,7 +40,3 @@ References
 ==========
 
 1\. <http://www.winehq.org/about/>
-
-[Category:Tablet setup in
-applications](Category:Tablet setup in applications "wikilink")
-

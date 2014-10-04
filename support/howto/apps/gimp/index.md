@@ -196,7 +196,3 @@ References
 1.
 [http://www.gimp.org/about/introduction.html\<br\>](http://www.gimp.org/about/introduction.html<br>)
 2. <http://www.gimp.org/release-notes/gimp-2.8.html>
-
-[Category:Tablet setup in
-applications](Category:Tablet setup in applications "wikilink")
-

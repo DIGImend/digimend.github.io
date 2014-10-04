@@ -74,7 +74,3 @@ References
 ==========
 
 1\. <http://inkscape.org/>
-
-[Category:Tablet setup in
-applications](Category:Tablet setup in applications "wikilink")
-

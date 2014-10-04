@@ -80,7 +80,3 @@ References
 ==========
 
 1\. <http://al.chemy.org/>
-
-[Category:Tablet setup in
-applications](Category:Tablet setup in applications "wikilink")
-

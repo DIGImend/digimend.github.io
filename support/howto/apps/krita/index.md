@@ -78,7 +78,3 @@ References
 1\. [Krita 2.4 – Creative
 Freedom](http://www.krita.org/about-krita-2-4.pdf)\<br\> 2.
 <http://permalink.gmane.org/gmane.comp.kde.cvs/1138910>
-
-[Category:Tablet setup in
-applications](Category:Tablet setup in applications "wikilink")
-

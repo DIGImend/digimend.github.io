@@ -43,7 +43,3 @@ References
 ==========
 
 1\. <http://wiki.blender.org/index.php/Doc:2.6/Manual/Introduction>
-
-[Category:Tablet setup in
-applications](Category:Tablet setup in applications "wikilink")
-
