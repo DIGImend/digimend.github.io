@@ -1,3 +1,6 @@
+---
+title: Tablet setup in Wine
+---
 Wine lets you run Windows software on other operating systems. With
 Wine, you can install and run these applications just like you would in
 Windows.\<sup\>[1]\</sup\>

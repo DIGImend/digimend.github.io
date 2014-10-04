@@ -1,3 +1,6 @@
+---
+title: Tablet setup in MyPaint
+---
 MyPaint is a fast and easy open-source graphics application for digital
 painters. It lets you focus on the art instead of the program. You work
 on your canvas with minimum distractions, bringing up the interface only

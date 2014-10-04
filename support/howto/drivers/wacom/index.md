@@ -1,3 +1,6 @@
+---
+title: Tablet setup with xf86-input-wacom
+---
 It is intended that Waltop tablets be supported by the Wacom X driver.
 However things have been in a state of flux both in the kernel and with
 the Wacom and evdev X drivers. It is possible that your Waltop tablet

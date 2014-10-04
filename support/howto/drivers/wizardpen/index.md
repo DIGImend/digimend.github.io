@@ -1,3 +1,6 @@
+---
+title: Tablet setup with WizardPen
+---
 If your kernel does not support your tablet the recommendation is to use
 the DIGI*mend* supplied [kernel patches](Kernel patches "wikilink") or
 [kernel](Kernel packages "wikilink"). For supported kernel versions and

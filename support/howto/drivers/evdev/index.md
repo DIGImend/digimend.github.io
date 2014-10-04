@@ -1,3 +1,6 @@
+---
+title: Tablet setup with xf86-input-evdev
+---
 In this HOWTO the basics of graphics tablet configuration and set up
 with the evdev X driver is covered. For many the tablet will work out of
 the box and not require anything further. However depending on your

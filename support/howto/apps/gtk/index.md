@@ -1,5 +1,6 @@
-\<!--Tablet setup in GTK based applications (Gimp, Mypaint)--\>
-
+---
+title: Tablet setup in GTK-based applications (Gimp, Mypaint)
+---
 GTK
 ---
 

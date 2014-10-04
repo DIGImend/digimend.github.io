@@ -1,3 +1,6 @@
+---
+title: Tablet setup in Blender
+---
 Blender is one of the most popular Open Source 3D graphics applications
 in the world. Aimed at media professionals and artists world-wide,
 Blender can be used to create 3D visualizations such as stills or

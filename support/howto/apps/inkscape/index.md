@@ -1,3 +1,6 @@
+---
+title: Tablet setup in Inkscape
+---
 An Open Source vector graphics editor, with capabilities similar to
 Illustrator, CorelDraw, or Xara X, using the W3C standard Scalable
 Vector Graphics (SVG) file format.

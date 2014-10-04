@@ -1,3 +1,6 @@
+---
+title: Tablet setup in Krita
+---
 Krita is a flexible painting application that makes creating art from
 scratch or existing resources a fun and productive experience. With many
 powerful brush engines and unique features as multi- hand and mirrored
