@@ -29,7 +29,9 @@ the settings.
 ![MyPaint 1.0 GTK input device
 dialogue](setup.png "MyPaint 1.0 GTK input device dialogue")
 
-\<!----\>
+The above method works only with MyPaint 1.0 or above. Earlier versions of
+this program do not have the GTK input dialog menu item, so you cannot setup
+your non-wacom tablet.
 
 Pressure curve
 --------------

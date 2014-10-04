@@ -123,11 +123,17 @@ If you comment out the first "if" branch in
 `   }`\
 `}`
 
+For Ubuntu 12.04 you can find the building instruction
+[here](http://www.gimpusers.com/tutorials/compiling-gimp-for-ubuntu).
+
 Then, after building the modified GIMP, you can configure both of your
 devices:
 
 ![GIMP 2.8 Configure Input Devices dialogue both
 devices](28good.png "GIMP 2.8 Configure Input Devices dialogue both devices")
+
+**NOTE**: This modification could make GIMP unstable. Use this advice at your
+own risk.
 
 GIMP 2.6.12
 ===========

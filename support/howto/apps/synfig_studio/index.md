@@ -30,6 +30,10 @@ menu. On the **Input** dialogue select your device and set the *Mode* to
 ![Synfig Studio 0.63 Input dialogue to set up your
 device](devicesetup.png "Synfig Studio 0.63 Input dialogue to set up your device")
 
+You can learn how you can draw with your tablet in this program in the
+["Creating Shapes" article of the Synfig Studio's
+manual](http://wiki.synfig.org/wiki/Doc:Creating_Shapes#Using_tablet_to_draw_shapes).
+
 More information
 ================
 

@@ -29,10 +29,24 @@ configure anything in Alchemy.
 If your tablet is not recognised, there might be a problem with loading
 the JPen library.
 
+If you start Alchemy in a terminal and the following message appears:
+
+    08-Jun-2012 15:11:24 jpen.provider.NativeLibraryLoader$4 run
+    INFO: loading JNI library: jpen-2-2-x86_64 ...
+    08-Jun-2012 15:11:24 jpen.provider.NativeLibraryLoader$4 logOnFail
+    INFO: jpen-2-2-x86_64 couldn't be loaded
+    08-Jun-2012 15:11:24 jpen.provider.NativeLibraryLoader$4 run
+    INFO: loading JNI library: jpen-2-2-ia64 ...
+    08-Jun-2012 15:11:24 jpen.provider.NativeLibraryLoader$4 logOnFail
+    INFO: jpen-2-2-ia64 couldn't be loaded
+
+then the JPen library has not loaded.
+
 To correct the problem do the following. Download the JPen library
 (jpen-2-100101-lib.zip) from
 [here](http://sourceforge.net/projects/jpen/files/jpen/2-100101/jpen-2-100101-lib.zip/download)
-to ~/Downloads.
+to ~/Downloads. It's assumed that you have extracted Alchemy to your home
+directory and therefore the Alchemy installation path is ~/Alchemy.
 
 1. Open a terminal and change to the Alchemy directory.
 

@@ -24,6 +24,12 @@ Tablet setup
 This sofware is not compatible with the evdev driver, so the pen's
 pressure will not affect anything.
 
+This bug has been reported to the Wine bugtracker
+[here](http://bugs.winehq.org/show_bug.cgi?id=30893). In the comments of that
+bug you can find some tips how to make the software evdev-compatible. You can
+build a corrected Wine for yourself, but that modification can make Wine
+unstable, so use those tips at your own risk.
+
 If you were brave enough to have made Wine evdev compatible by patching
 and compiling the source code yourself, you will not need to do any
 device configuration. Your pen should just work in Wine.

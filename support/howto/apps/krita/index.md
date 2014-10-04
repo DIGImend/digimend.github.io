@@ -28,6 +28,14 @@ Krita is based on the QT library. The current QT version is 4.8.
 Unfortunately QT 4.8 is not compatible with the evdev driver, so the
 pen's pressure will not affect anything.
 
+This bug has been reported to the QT bugtracker
+[https://bugreports.qt-project.org/browse/QTBUG-25329 here]. You may sign up
+to that site and vote for this bug.
+
+In the comments of that bug you can find some tips how to make the library
+evdev compatible. There is a lot of applications using this library, using a
+modified library is very risky. So use those tips at your own risk.
+
 If you were brave enough to have made QT evdev compatible by patching
 and compiling the source code yourself, you will not need to do any
 device configuration. Your pen should just work in Krita.

@@ -21,6 +21,10 @@ Servers even though it has been deprecated. Ubuntu Precise 12.04 (kernel
 pen buttons. The tablet's frame buttons and mouse (if it has them) will
 require the kernel driver.
 
+**NOTE**: The DIGImend project does not develop nor support the WizardPen
+driver. This is a suggestion intended to be temporary work around for the
+convenience of unsupported tablet users.
+
 Obtain the WizardPen driver
 ===========================
 
