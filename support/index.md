@@ -15,14 +15,14 @@ X.org driver setup HOWTOs
 -------------------------
 <dl>
 {% assign howto_drivers_dir = page.url | remove: 'index.html' | append: 'howto/drivers/' %}
-{% include pi.html parent_dir=howto_drivers_dir orderby="weight" include="pt_d.html" %}
+{% include pi parent_dir=howto_drivers_dir orderby="weight" include="pt_d.html" %}
 </dl>
 
 Application setup HOWTOs
 ------------------------
 <dl>
 {% assign howto_apps_dir = page.url | remove: 'index.html' | append: 'howto/apps/' %}
-{% include pi.html parent_dir=howto_apps_dir include="pt_d.html" %}
+{% include pi parent_dir=howto_apps_dir include="pt_d.html" %}
 </dl>
 
 [1]: mailto:digimend-users@lists.sourceforge.net
