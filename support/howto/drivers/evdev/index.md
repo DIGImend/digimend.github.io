@@ -1,6 +1,7 @@
 ---
 title: Tablet setup with xf86-input-evdev
 summary: How to make your tablet work with the generic input device driver for X.org
+weight: 10
 ---
 In this HOWTO the basics of graphics tablet configuration and set up
 with the evdev X driver is covered. For many the tablet will work out of

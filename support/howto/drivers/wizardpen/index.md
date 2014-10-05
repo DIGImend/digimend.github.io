@@ -1,6 +1,7 @@
 ---
 title: Tablet setup with WizardPen
 summary: How to use the WizardPen driver as a temporary work around for unsupported tablets
+weight: 30
 ---
 If your kernel does not support your tablet the recommendation is to use
 the DIGI*mend* supplied [kernel patches](Kernel patches "wikilink") or
