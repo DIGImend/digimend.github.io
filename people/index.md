@@ -7,28 +7,26 @@ started in 2008. Some of those are listed below. If you feel you're missing
 from this list, please send a message to Nikolai Kondrashov
 &lt;[spbnick@gmail.com][1]&gt;.
 
-<dl>
-    <dt>Nikolai Kondrashov</dt>
-    <dd>The project founder and main developer.</dd>
+Nikolai Kondrashov
+: The project founder and main developer.
 
-    <dt>Favux</dt>
-    <dd>Wiki contributions and user support.</dd>
+Favux
+: Wiki contributions and user support.
 
-    <dt>Viktoria S.</dt>
-    <dd>Wiki contributions and user support.</dd>
+Viktoria S.
+: Wiki contributions and user support.
 
-    <dt>Martin Rusko</dt>
-    <dd>Initial Huion driver research, hacking and testing.</dd>
+Martin Rusko
+: Initial Huion driver research, hacking and testing.
 
-    <dt>Waltop International Corporation</dt>
-    <dd>Providing tablet samples and information.</dd>
+Waltop International Corporation
+: Providing tablet samples and information.
 
-    <dt>Yiynova Europe BV</dt>
-    <dd>Initial Yiynova tablet support hacking and testing.</dd>
+Yiynova Europe BV
+: Initial Yiynova tablet support hacking and testing.
 
-    <dt>Numerous tablet owners</dt>
-    <dd>Collecting tablet diagnostics and testing.</dd>
-</dl>
+Numerous tablet owners
+: Collecting tablet diagnostics and testing.
 
 The project logo is based on the tablet icon from the free Streamline Icon Set
 by [Webalys][101] and [Stycil Tux][102] by [Two Lof Bees][103].
