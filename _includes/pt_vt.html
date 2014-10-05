@@ -1,0 +1,60 @@
+{% comment %}
+
+    Output iterated page as a vendor's tablet.
+
+    @param page         Page being iterated over
+    @param page_dir     Page dir being iterated over
+    @param arg1         Vendor to filter by
+
+{% endcomment %}
+{% if include.page.vendor == include.arg1 %}
+    {% if include.page.supported == true %}
+        {% assign pt_vt_status_class = "status-supported" %}
+    {% elsif include.page.supported == false %}
+        {% assign pt_vt_status_class = "status-unsupported" %}
+    {% else %}
+        {% assign pt_vt_status_class = "status-unknown" %}
+    {% endif %}
+    <tr class="tablet {{pt_vt_status_class}}">
+        <td>
+            {{include.page.VID}}:{{include.page.PID}}<br>
+            <a href="{{include.page_dir}}">
+                {{include.page.vendor}} {{include.page.product}}<br>
+                {% unless include.page.image == null %}
+                    <img src="{{include.page_dir}}{{include.page.image}}.thumb.jpg">
+                {% endunless %}
+            </a>
+        </td>
+        <td>
+            <ul>
+                {% for n in include.page.sold_as %}
+                    <li>{{n}}</li>
+                {% endfor %}
+                {% for n in include.page.maybe_sold_as %}
+                    <li>{{n}} (?)</li>
+                {% endfor %}
+            </ul>
+        </td>
+        <td>
+            {% if include.page.supported == true %}
+                Supported
+                {% assign pt_vt_supported_in_size = include.page.supported_in | size %}
+                {% if pt_vt_supported_in_size != 0 %}
+                    in:
+                    <ul>
+                        {% unless include.page.supported_in.kernel == null %}
+                            <li>Linux kernel {{include.page.supported_in.kernel}}</li>
+                        {% endunless %}
+                        {% unless include.page.supported_in.wacom == null %}
+                            <li>xf86-input-wacom {{include.page.supported_in.wacom}}</li>
+                        {% endunless %}
+                    </ul>
+                {% endif %}
+            {% elsif include.page.supported == false %}
+                Unsupported
+            {% else %}
+                Unknown
+            {% endif %}
+        </td>
+    </tr>
+{% endif %}

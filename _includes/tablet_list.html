@@ -45,67 +45,7 @@
         </tr>
     </thead>
     <tbody>
-        {% comment %}
-
-            For each vendor's tablet page
-
-        {% endcomment %}
-        {% for p in sorted_pages %}
-            {% assign p_dir = p.url | remove: 'index.html' %}
-            {% if p_dir contains page_dir and p_dir != page_dir %}
-                {% if p.vendor == vendor %}
-                    {% if p.supported == true %}
-                        {% assign status_class = "status-supported" %}
-                    {% elsif p.supported == false %}
-                        {% assign status_class = "status-unsupported" %}
-                    {% else %}
-                        {% assign status_class = "status-unknown" %}
-                    {% endif %}
-                    <tr class="tablet {{status_class}}">
-                        <td>
-                            {{p.VID}}:{{p.PID}}<br>
-                            <a href="{{p_dir}}">
-                                {{p.vendor}} {{p.product}}<br>
-                                {% unless p.image == null %}
-                                    <img src="{{p_dir}}{{p.image}}.thumb.jpg">
-                                {% endunless %}
-                            </a>
-                        </td>
-                        <td>
-                            <ul>
-                                {% for n in p.sold_as %}
-                                    <li>{{n}}</li>
-                                {% endfor %}
-                                {% for n in p.maybe_sold_as %}
-                                    <li>{{n}} (?)</li>
-                                {% endfor %}
-                            </ul>
-                        </td>
-                        <td>
-                            {% if p.supported == true %}
-                                Supported
-                                {% assign p_supported_in_size = p.supported_in | size %}
-                                {% if p_supported_in_size != 0 %}
-                                    in:
-                                    <ul>
-                                        {% unless p.supported_in.kernel == null %}
-                                            <li>Linux kernel {{p.supported_in.kernel}}</li>
-                                        {% endunless %}
-                                        {% unless p.supported_in.wacom == null %}
-                                            <li>xf86-input-wacom {{p.supported_in.wacom}}</li>
-                                        {% endunless %}
-                                    </ul>
-                                {% endif %}
-                            {% elsif p.supported == false %}
-                                Unsupported
-                            {% else %}
-                                Unknown
-                            {% endif %}
-                        </td>
-                    </tr>
-                {% endif %}
-            {% endif %}
-        {% endfor %}
+        {% include pi.html parent_dir=page_dir orderby="PID" include="pt_vt.html" include_arg1=vendor %}
     </tbody>
 </table>
 {% endfor %}

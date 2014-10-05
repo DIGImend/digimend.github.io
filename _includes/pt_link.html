@@ -1,0 +1,23 @@
+{% comment %}
+
+    Output iterated page link
+
+    @param page         Page being iterated over
+    @param page_dir     Page dir being iterated over
+    @param ancestor     True if the iterated page is an ancestor of the
+                        current page, false otherwise
+    @param current      True if the iterated page is the current page,
+                        false otherwise
+
+{% endcomment %}{% comment %}
+{% endcomment %}{%  if include.ancestor %}{%comment %}
+{% endcomment %}{%      assign pt_link_attrs = ' class="selected"' %}{%comment %}
+{% endcomment %}{%  else %}{%comment %}
+{% endcomment %}{%      assign pt_link_attrs = '' %}{%comment %}
+{% endcomment %}{%  endif %}{%comment %}
+{% endcomment %}{%  if include.current %}{%comment %}
+{% endcomment           %}<span>{{include.page.title}}</span>{%comment %}
+{% endcomment %}{%  else %}{%comment %}
+{% endcomment           %}<a href="{{include.page_dir}}"{{pt_link_attrs}}>{{include.page.title}}</a>{%comment %}
+{% endcomment %}{%  endif %}{%comment %}
+{% endcomment %}

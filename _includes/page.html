@@ -26,26 +26,7 @@
             <div id="project_tagline">Improving Linux support for graphics tablets.</div>
           </div>
           <nav>
-            {% assign sorted_pages = site.pages | sort:"weight" %}
-            {% assign page_dir = page.url | remove: 'index.html' %}
-            {% for p in sorted_pages %}
-              {% assign p_depth = p.url | split: '/' | size %}
-              {% if p.title != null and p_depth == 3 %}
-                {% assign p_dir = p.url | remove: 'index.html' %}
-                {% assign p_dir_len = p_dir | size %}
-                {% assign page_base = page_dir | truncate: p_dir_len, "" %}
-                {% if p_dir == page_base %}
-                  {% assign p_extra_attrs = ' class="selected"' %}
-                {% else %}
-                  {% assign p_extra_attrs = '' %}
-                {% endif %}
-                {% if page_dir == p_dir %}
-                  <span>{{p.title}}</span>
-                {% else %}
-                  <a href="{{p_dir}}"{{p_extra_attrs}}>{{p.title}}</a>
-                {% endif %}
-              {% endif %}
-            {% endfor %}
+            {% include pi.html depth_min=2 depth_max=2 orderby="weight" include="pt_link.html" %}
           </nav>
         </header>
     </div>

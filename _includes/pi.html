@@ -1,0 +1,110 @@
+{% comment %}
+
+    Iterate over pages, including for each.
+
+    @param parent_dir   Parent directory
+    @param depth_min    Minimum depth, relative to parent
+    @param depth_max    Maximum depth, relative to parent
+    @param orderby      Order property
+    @param include      Include for each page
+    @param include_arg1 Include argument #1.
+    @param include_arg2 Include argument #2.
+    @param include_arg3 Include argument #3.
+    @param include_arg4 Include argument #4.
+    @param include_arg5 Include argument #5.
+
+    Include prototype
+
+    @param page         Page being iterated over
+    @param page_dir     Page dir being iterated over
+    @param ancestor     True if the iterated page is an ancestor of the
+                        current page, false otherwise
+    @param current      True if the iterated page is the current page,
+                        false otherwise
+    @param arg1         Argument passed as include_arg1
+    @param arg2         Argument passed as include_arg2
+    @param arg3         Argument passed as include_arg3
+    @param arg4         Argument passed as include_arg4
+    @param arg5         Argument passed as include_arg5
+
+{% endcomment %}{% comment %}
+
+                    Set parameter defaults
+
+{% endcomment %}{%  if include.parent_dir == null %}{%comment %}
+{% endcomment %}{%      assign pi_parent_dir = "/" %}{% comment %}
+{% endcomment %}{%  else %}{% comment %}
+{% endcomment %}{%      assign pi_parent_dir = include.parent_dir %}{% comment %}
+{% endcomment %}{%  endif %}{% comment %}
+
+{% endcomment %}{%  if include.depth_min == null %}{% comment %}
+{% endcomment %}{%      assign pi_depth_min = 0 %}{% comment %}
+{% endcomment %}{%  else %}{% comment %}
+{% endcomment %}{%      assign pi_depth_min = include.depth_min %}{% comment %}
+{% endcomment %}{%  endif %}{% comment %}
+
+{% endcomment %}{%  if include.depth_max == null %}{% comment %}
+{% endcomment %}{%      assign pi_depth_max = 256 %}{% comment %}
+{% endcomment %}{%  else %}{% comment %}
+{% endcomment %}{%      assign pi_depth_max = include.depth_max %}{% comment %}
+{% endcomment %}{%  endif %}{% comment %}
+
+{% endcomment %}{%  if include.orderby == null %}{% comment %}
+{% endcomment %}{%      assign pi_orderby = "title" %}{% comment %}
+{% endcomment %}{%  else %}{% comment %}
+{% endcomment %}{%      assign pi_orderby = include.orderby %}{% comment %}
+{% endcomment %}{%  endif %}{% comment %}
+
+                    Determine current and parent page dir parameters
+
+{% endcomment %}{%  assign pi_page_dir = page.url | remove: 'index.html' %}{% comment %}
+{% endcomment %}{%  assign pi_parent_dir_len = pi_parent_dir | size %}{% comment %}
+{% endcomment %}{%  assign pi_parent_depth = pi_parent_dir | split: '/' | size %}{% comment %}
+
+                    For each sorted page
+
+{% endcomment %}{%  assign pi_pages = site.pages | sort:pi_orderby %}{% comment %}
+{% endcomment %}{%  for pi_p in pi_pages %}{% comment %}
+
+                        Determine iterated page dir parameters
+
+{% endcomment %}{%      assign pi_p_dir = pi_p.url | remove: 'index.html' %}{% comment %}
+{% endcomment %}{%      assign pi_p_dir_len = pi_p_dir | size %}{% comment %}
+{% endcomment %}{%      assign pi_p_depth = pi_p_dir | split: '/' | size %}{% comment %}
+{% endcomment %}{%      assign pi_p_base = pi_p_dir | truncate: pi_parent_dir_len, "" %}{% comment %}
+
+                        If the iterated page is the parent or under parent
+
+{% endcomment %}{%      if pi_p_base == pi_parent_dir %}{% comment %}
+
+                            If the iterated page is within the parent-relative depth range
+
+{% endcomment %}{%          assign pi_p_rel_depth = pi_p_depth - pi_parent_depth %}{% comment %}
+{% endcomment %}{%          if pi_p_rel_depth >= pi_depth_min and pi_p_rel_depth <= pi_depth_max %}{% comment %}
+
+                                Determine if the iterated page is the current page
+
+{% endcomment %}{%              if pi_p_dir == pi_page_dir %}{% comment %}
+{% endcomment %}{%                  assign pi_current = true %}{% comment %}
+{% endcomment %}{%              else %}{% comment %}
+{% endcomment %}{%                  assign pi_current = false %}{% comment %}
+{% endcomment %}{%              endif %}{% comment %}
+
+                                Determine if the iterated page is an ancestor of the current page
+
+{% endcomment %}{%              assign pi_page_base = pi_page_dir | truncate: pi_p_dir_len, "" %}{% comment %}
+{% endcomment %}{%              if pi_p_dir == pi_page_base %}{% comment %}
+{% endcomment %}{%                  assign pi_ancestor = true %}{% comment %}
+{% endcomment %}{%              else %}{% comment %}
+{% endcomment %}{%                  assign pi_ancestor = false %}{% comment %}
+{% endcomment %}{%              endif %}{% comment %}
+
+                                Include
+
+{% endcomment %}{%              include {{include.include}} page=pi_p page_dir=pi_p_dir current=pi_current ancestor=pi_ancestor arg1=include.include_arg1 arg2=include.include_arg2 arg3=include.include_arg3 arg4=include.include_arg4 arg5=include.include_arg5 %}{% comment %}
+
+{% endcomment %}{%          endif %}{% comment %}
+{% endcomment %}{%      endif %}{% comment %}
+
+{% endcomment %}{%  endfor %}{% comment %}
+{% endcomment %}
