@@ -3,24 +3,21 @@ title: Tablet setup with WizardPen
 summary: How to use the WizardPen driver as a temporary work around for unsupported tablets
 weight: 30
 ---
-If your kernel does not support your tablet the recommendation is to use
-the DIGI*mend* supplied [kernel patches](Kernel patches "wikilink") or
-[kernel](Kernel packages "wikilink"). For supported kernel versions and
-tablets see the latest release's
-[COMPATIBILITY](http://digimend.git.sourceforge.net/git/gitweb.cgi?p=digimend/kernel-patches.git;a=blob_plain;f=COMPATIBILITY;hb=v6)
+If your kernel does not support your tablet the recommendation is to use the
+[digimend-kernel-drivers](https://github.com/DIGImend/digimend-kernel-drivers).
+For supported kernel versions and tablets see the
+[README.md](https://github.com/DIGImend/digimend-kernel-drivers/blob/master/README.md)
 file.
 
-However there are tablets that do not yet have a kernel driver, mostly
-because they are new or diagnostics for the tablet have not been
-submitted. While waiting for a kernel driver to be developed for a
-currently [unsupported tablet](Tablet support status "wikilink") you
-might want to try the WizardPen driver as a work around. Both UC-logic
-and Waltop tablets have reported success with it on recent kernels and X
-Servers even though it has been deprecated. Ubuntu Precise 12.04 (kernel
-3.2 and X server 1.11/1.12) and Quantal 12.10 (kernel 3.5 and X Server
-1.13) for example. You might be able to enable your pen and maybe your
-pen buttons. The tablet's frame buttons and mouse (if it has them) will
-require the kernel driver.
+However, there are tablets that do not yet have a kernel driver. While waiting
+for a kernel driver to be developed for a currently unsupported tablet, you
+might want to try the WizardPen driver as a work around. Both UC-logic and
+Waltop tablets have reported success with it on recent kernels and X Servers
+even though it has been deprecated. Ubuntu Precise 12.04 (kernel 3.2 and X
+server 1.11/1.12) and Quantal 12.10 (kernel 3.5 and X Server 1.13) for
+example. You might be able to enable your pen and maybe your pen buttons. The
+tablet's frame buttons and mouse (if it has them) will require the kernel
+driver.
 
 **NOTE**: The DIGImend project does not develop nor support the WizardPen
 driver. This is a suggestion intended to be temporary work around for the
