@@ -68,7 +68,7 @@ the following command:
 ### xf86-input-wacom-0.15.0 or later
 
 In a current
-[xf86-input-wacom](https://sourceforge.net/projects/linuxwacom/files/xf86-input-wacom/)
+[xf86-input-wacom](http://linuxwacom.sourceforge.net/wiki/index.php/Xf86-input-wacom)
 50-wacom.conf file there is a separate Waltop snippet:
 
     # Waltop tablets
@@ -193,7 +193,7 @@ Waltop models supported by the wacom X driver
 =============================================
 
 The Wacom X driver is
-[xf86-input-wacom](https://sourceforge.net/apps/mediawiki/linuxwacom/index.php?title=Xf86-input-wacom).
+[xf86-input-wacom](http://linuxwacom.sourceforge.net/wiki/index.php/Xf86-input-wacom).
 It has support for the Waltop tablets built-in as can be seen at
 xf86-input-wacom/src/wcmUSB.c in the source code.
 
@@ -231,13 +231,12 @@ xf86-input-wacom/src/wcmUSB.c in the source code.
 
 - Product IDs from the Waltop Linux driver (release date 2009/08/11),
   which was a fork of linuxwacom 0.8.4
-  <http://www.waltop.com.tw/download.asp?lv=0&id=2>.
 
 Further wacom set up information
 ================================
 
 If you are using the Wacom X driver for your Waltop tablet the Linux
 Wacom Project's mediawiki [HOWTO
-page](https://sourceforge.net/apps/mediawiki/linuxwacom/index.php?title=Category:HOWTO)
+page](http://linuxwacom.sourceforge.net/wiki/index.php/Category:HOWTO)
 has information on Calibration, Dual and MultiMonitor Set Up, Tablet
 Configuration, Xsetwacom, etc.
