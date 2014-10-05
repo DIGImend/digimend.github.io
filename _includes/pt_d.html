@@ -1,0 +1,11 @@
+{% comment %}
+
+    Output iterated page as linked dt/dd pair.
+
+    @param page         Page being iterated over
+    @param page_dir     Page dir being iterated over
+
+{% endcomment %}{% comment %}
+{% endcomment %}<dt><a href="{{include.page_dir}}">{{include.page.title}}</a></dt>{%comment %}
+{% endcomment %}<dd>{{include.page.summary}}</dd>{%comment %}
+{% endcomment %}
