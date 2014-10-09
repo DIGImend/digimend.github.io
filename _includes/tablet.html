@@ -36,6 +36,9 @@
                         {% unless page.supported_in.kernel == null %}
                             <li>Linux kernel {{page.supported_in.kernel}}</li>
                         {% endunless %}
+                        {% unless page.supported_in.digimend == null %}
+                            <li>digimend-kernel-drivers {{page.supported_in.digimend}}</li>
+                        {% endunless %}
                         {% unless page.supported_in.wacom == null %}
                             <li>xf86-input-wacom {{page.supported_in.wacom}}</li>
                         {% endunless %}
