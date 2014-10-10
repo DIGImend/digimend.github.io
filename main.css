@@ -410,6 +410,27 @@ header nav span {
   background: #f2f2f2;
 }
 
+.tool {
+  font-size: 12px;
+  display: block;
+  float: right;
+  padding: 6px 6px 5px 6px;
+  font-weight: 700;
+  border-radius: 2px;
+  margin: 20px 0px 0 4px;
+  background-color: #0090ff;
+  color: #f2f2f2;
+}
+
+.tool .octicon {
+    padding-right: 3px;
+}
+
+.tool:hover, .tool:focus {
+  background-color: #f2f2f2;
+  color: #0090ff;
+}
+
 #main_content {
   padding-top: 40px;
 }

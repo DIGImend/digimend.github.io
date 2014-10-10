@@ -46,6 +46,9 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
+        <a class="tool" href="{{ page.url | replace_first: page.mount_pfx, page.edit_pfx | replace: "/index.html", "/index.md" }}">
+            <span class="octicon octicon-pencil"></span>Edit
+        </a>
         <h1>{{include.title}}</h1>
         {% if include.include != null %}
             {% include {{include.include}} %}

@@ -4,8 +4,12 @@ defaults:
             path: "tablets"
         values:
             layout: tablet
+            mount_pfx: /tablets/
+            edit_pfx: https://github.com/DIGImend/tablets/edit/master/
     -
         scope:
             path: ""
         values:
             layout: page
+            mount_pfx: /
+            edit_pfx: https://github.com/DIGImend/digimend.github.io/edit/master/
