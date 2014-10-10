@@ -49,6 +49,11 @@
         <a class="tool" href="{{ page.url | replace_first: page.mount_pfx, page.edit_pfx | replace: "/index.html", "/index.md" }}">
             <span class="octicon octicon-pencil"></span>Edit
         </a>
+        {% capture: page_issue_title %}Page issue: {{ include.title }}{% endcapture %}
+        {% capture: page_issue_body %}There is an issue with page [{{ include.title }}]({{ site.url }}{{ page.url }}):{% endcapture %}
+        <a class="tool" href="{{ page.complain_url }}?title={{ page_issue_title | url_param_escape }}&body={{ page_issue_body | url_param_escape }}%0a%0a">
+            <span class="octicon octicon-issue-opened"></span>Complain
+        </a>
         <h1>{{include.title}}</h1>
         {% if include.include != null %}
             {% include {{include.include}} %}
