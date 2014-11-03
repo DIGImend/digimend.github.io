@@ -257,6 +257,32 @@ For more information see the [Coordinate Transformation
 Matrix](http://linuxwacom.sourceforge.net/wiki/index.php/Dual_and_Multi-Monitor_Set_Up#Coordinate_Transformation_Matrix)
 on the Linux Wacom Project's mediawiki.
 
+***xrestrict Utility***
+
+The [`xrestrict`](https://github.com/Ademan/xrestrict) utility is in early development, and may contain bugs.
+It automatically calculates the appropriate "Coordinate Transformation Matrix" for a given monitor and device, and applies it.
+Its [github page](https://github.com/ademan/xrestrict#building) includes instructions for building from source.
+Its basic invocation is `xrestrict -d DEVICEID -c CRTCINDEX`.
+`DEVICEID` corresponds to the XID of the tablet device.
+`CRTCINDEX` is the index of the CRTC to use.
+(For most multi-monitor setups without mirrored monitors, a CRTC generally corresponds directly to monitors.
+So if you have two monitors, you will have two CRTCs: 0 and 1.)
+You can use the `xinput` command to discover the XID of your tablet.
+For instance this is what my xinput looks like
+
+    $ xinput
+    ⎡ Virtual core pointer                    	id=2	[master pointer  (3)]
+    ⎜   ↳ Virtual core XTEST pointer              	id=4	[slave  pointer  (2)]
+    ⎜   ...
+    ⎜   ↳ HV 10594                                	id=15	[slave  pointer  (2)]
+    ⎣ Virtual core keyboard                   	id=3	[master keyboard (2)]
+        ↳ Virtual core XTEST keyboard             	id=5	[slave  keyboard (3)]
+        ...
+        
+My tablet is named "HV 10594" so in this case 15 is the correct `DEVICEID`.
+On my system, CRTC 0 corresponds to my left monitor, but this numbering is arbitrary, you will have to experiment to see what number your monitors are.
+Given these things, if I want to restrict my tablet to the left screen I issue `xrestrict -d 15 -c 0` and xrestrict does the rest for me.
+
 Left handed tablet orientation
 ------------------------------
 
