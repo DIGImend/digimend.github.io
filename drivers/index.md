@@ -28,7 +28,7 @@ A [set of patches][21] adding support for a few tablets to some older Linux
 kernel versions (see [README.md][22]). The Linux kernel started supporting
 out-of-tree HID drivers in v3.5 and patching the kernel to add support for new
 tablets became a rare necessity, so work mostly moved to
-[digimend-kernel-drivers][11].  Most people don't need these patches nowadays. 
+[digimend-kernel-drivers][11].  Most people don't need these patches nowadays.
 
 Latest release
 : [digimend-kernel-patches v6][29] - Sep 8, 2012
