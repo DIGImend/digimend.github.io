@@ -51,7 +51,7 @@
             <span class="octicon octicon-pencil"></span>
         </a>
         {% capture: page_issue_title %}Page issue: {{ include.title }}{% endcapture %}
-        {% capture: page_issue_body %}There is an issue with page [{{ include.title }}]({{ site.url }}{{ page.url }}):{% endcapture %}
+        {% capture: page_issue_body %}There is an issue with page [{{ include.title }}]({{ site.url }}{{ page.url | remove: 'index.html' }}):{% endcapture %}
         <a href="{{ page.complain_url }}?title={{ page_issue_title | url_param_escape }}&body={{ page_issue_body | url_param_escape }}%0a%0a"
            class="tool" title="Report an issue with this page">
             <span class="octicon octicon-issue-opened"></span>
