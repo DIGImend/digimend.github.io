@@ -43,7 +43,7 @@ Example:
     Bus 005 Device 002: ID 172f:0501 Waltop International Corp. Media Tablet 10.6"
 
 "172f:0501" above is the [Waltop Media Tablet
-10.6"](Waltop Media Tablet 10.6" "wikilink") USB VID and PID.
+10.6"](/tablets/Waltop_Media_Tablet_10.6_inch/) USB VID and PID.
 
 If you can't identify your tablet just by looking at vendor/product
 names, you could unplug it, run lsusb, plug it back, run lsusb again and
