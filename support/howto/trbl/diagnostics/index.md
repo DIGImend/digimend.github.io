@@ -136,7 +136,7 @@ area, slowly moving outside and crossing each border in the following
 
     $ sudo usbhid-dump -es -m $T | tee pen_coords.txt
 
-[Video](http://youtu.be/ysYk8KLY98U)
+{% include video.html id="ysYk8KLY98U" %}
 
 #### Tilt angles
 
@@ -153,7 +153,7 @@ in the following (clockwise) order: top, right, bottom, left.
 
     $ sudo usbhid-dump -es -m $T | tee pen_tilt.txt
 
-[Video](http://youtu.be/h11zK-p_h4w)
+{% include video.html id="h11zK-p_h4w" %}
 
 #### Pressure
 
@@ -164,7 +164,7 @@ more. Please don't press hard enough to break the tip.
 
     $ sudo usbhid-dump -es -m $T | tee pen_pressure.txt
 
-[Video](http://youtu.be/cukrOS5MKyA)
+{% include video.html id="cukrOS5MKyA" %}
 
 #### Buttons
 
@@ -177,7 +177,7 @@ anything at the same time as pressing the buttons.
 
     $ sudo usbhid-dump -es -m $T | tee pen_buttons.txt
 
-[Video](http://youtu.be/2NC4c2x33ZE)
+{% include video.html id="2NC4c2x33ZE" %}
 
 ### Frame controls
 
@@ -201,7 +201,7 @@ order: top, right, bottom, left.
 
     $ sudo usbhid-dump -es -m $T | tee frame_dials.txt
 
-[Video](http://youtu.be/jXBZH7D3_7k)
+{% include video.html id="jXBZH7D3_7k" %}
 
 #### Buttons
 
@@ -219,7 +219,7 @@ left and right hand, they may produce different key codes.
 
     $ sudo usbhid-dump -es -m $T | tee frame_buttons.txt
 
-[Video](http://youtu.be/z8i17sFSUW8)
+{% include video.html id="z8i17sFSUW8" %}
 
 ### Mouse
 
@@ -234,7 +234,7 @@ lift a little over the bezel edge.
 
     $ sudo usbhid-dump -es -m $T | tee mouse_coords.txt
 
-[Video](http://youtu.be/iooZjBENDqc)
+{% include video.html id="iooZjBENDqc" %}
 
 #### Buttons
 
@@ -243,7 +243,7 @@ turn in this order: left, right, middle.
 
     $ sudo usbhid-dump -es -m $T | tee mouse_buttons.txt
 
-[Video](http://youtu.be/z7KO2SGkPRA)
+{% include video.html id="z7KO2SGkPRA" %}
 
 #### Wheel
 
@@ -256,7 +256,7 @@ first away from you, then towards you.
 
     $ sudo usbhid-dump -es -m $T | tee mouse_wheel.txt
 
-[Video](http://youtu.be/kfWpgHXqKyg)
+{% include video.html id="kfWpgHXqKyg" %}
 
 Send the results
 ----------------
