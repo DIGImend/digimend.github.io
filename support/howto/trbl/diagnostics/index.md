@@ -2,15 +2,14 @@
 title: Collecting tablet diagnostics
 summary: How to collect diagnostics to help make a driver
 ---
-Disclaimer: the DIGImend project currently lacks capacity to process
-diagnostics and make tablet drivers although you still can send
-diagnostics, we cannot promise that any drivers will be made for the
-tablets in question.
-
-Please follow these steps to collect the information required to make a
+You can follow these steps to collect information which can help make a
 driver for your tablet. Please send the resulting files to the
 [DIGImend-devel](mailto:DIGImend-devel@lists.sourceforge.net?subject=Tablet%20diagnostics)
 maillist.
+
+However, the DIGImend project doesn't have the capacity to process
+all diagnostics and make drivers for all possible tablets, so we cannot
+promise that any drivers will be made for the tablet in question.
 
 All the steps need to be executed in a terminal with the tablet plugged
 in. You could use either a text mode console or a terminal emulator
