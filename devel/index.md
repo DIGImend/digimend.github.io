@@ -44,10 +44,10 @@ device reports input events.  Included in
 distributions.
 
 Latest release
-: [usbhid-dump v1.3][usbhid-dump-latest] - Feb 5, 2012
+: [usbhid-dump v1.4][usbhid-dump-latest] - Nov 11, 2014
 
 [usbhid-dump-home]: https://github.com/DIGImend/usbhid-dump
-[usbhid-dump-latest]: https://github.com/DIGImend/usbhid-dump/releases/tag/1.3
+[usbhid-dump-latest]: https://github.com/DIGImend/usbhid-dump/releases/tag/1.4
 
 ### evdev-dump
 
