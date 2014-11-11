@@ -17,6 +17,13 @@ Application setup HOWTOs
 {% include pi parent_dir=howto_apps_dir include="pt_d.html" %}
 </dl>
 
+Troubleshooting HOWTOs
+----------------------
+<dl>
+{% assign howto_trbl_dir = page.url | remove: 'index.html' | append: 'howto/trbl/' %}
+{% include pi parent_dir=howto_trbl_dir include="pt_d.html" %}
+</dl>
+
 [1]: mailto:digimend-users@lists.sourceforge.net
 [2]: http://sourceforge.net/p/digimend/mailman/digimend-users/
 [3]: https://lists.sourceforge.net/lists/listinfo/digimend-users
