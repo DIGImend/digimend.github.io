@@ -20,10 +20,6 @@ driver, which will stop your terminal from receiving the input.
 
 You will need "lsusb" and "usbhid-dump" utilities which are both
 included into "usbutils" package, available in most distributions.
-However, usbhid-dump was added to the package relatively recently, and
-your distribution might miss it or have an outdated version. In such
-case, download and build it, following instructions on the
-[usbhid-dump](usbhid-dump "wikilink") page.
 
 Identify original model
 -----------------------
@@ -76,9 +72,8 @@ Example:
 
 The above stores the lsusb output in "descriptors.txt" file.
 
-Retrieve USB HID report descriptor(s) using
-[usbhid-dump](usbhid-dump "wikilink"). Run "sudo usbhid-dump -ed -m
-VID:PID" and attach the output to the diagnostics message.
+Retrieve USB HID report descriptor(s) using usbhid-dump. Run "sudo usbhid-dump
+-ed -m VID:PID" and attach the output to the diagnostics message.
 
 Example:
 
@@ -90,11 +85,9 @@ The above stores the usbhid-dump output in
 Collect raw input samples
 -------------------------
 
-Raw input samples could be collected either with
-[usbhid-dump](usbhid-dump "wikilink") or with a USB traffic sniffer,
-such as [Wireshark](http://www.wireshark.org/) or
-[tcpdump](http://www.tcpdump.org/). In most cases ubshid-dump is
-sufficient.
+Raw input samples could be collected either with usbhid-dump or with a USB
+traffic sniffer, such as [Wireshark](http://www.wireshark.org/) or
+[tcpdump](http://www.tcpdump.org/). In most cases ubshid-dump is sufficient.
 
 There are several input samples to be collected. Please put them into
 separate attachments, if possible. To collect an input sample with
