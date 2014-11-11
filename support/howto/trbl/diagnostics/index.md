@@ -25,9 +25,6 @@ your distribution might miss it or have an outdated version. In such
 case, download and build it, following instructions on the
 [usbhid-dump](usbhid-dump "wikilink") page.
 
-In the examples below, bold text represents your input, regular text -
-the output.
-
 Identify original model
 -----------------------
 
@@ -38,16 +35,16 @@ next to "ID" as two hexadecimal numbers separated by a colon.
 
 Example:
 
-`$ <strong>lsusb</strong>`\
-`Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub`\
-`Bus 002 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub`\
-`Bus 003 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub`\
-`Bus 004 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub`\
-`Bus 005 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub`\
-`Bus 001 Device 004: ID 2232:1001  `\
-`Bus 003 Device 002: ID 046d:c52b Logitech, Inc. Unifying Receiver`\
-`Bus 003 Device 003: ID 0a5c:219c Broadcom Corp. `\
-`Bus 005 Device 002: ID 172f:0501 Waltop International Corp. Media Tablet 10.6"`
+    $ lsusb
+    Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+    Bus 002 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+    Bus 003 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+    Bus 004 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+    Bus 005 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+    Bus 001 Device 004: ID 2232:1001
+    Bus 003 Device 002: ID 046d:c52b Logitech, Inc. Unifying Receiver
+    Bus 003 Device 003: ID 0a5c:219c Broadcom Corp.
+    Bus 005 Device 002: ID 172f:0501 Waltop International Corp. Media Tablet 10.6"
 
 "172f:0501" above is the [Waltop Media Tablet
 10.6"](Waltop Media Tablet 10.6" "wikilink") USB VID and PID.
@@ -59,7 +56,7 @@ notice which line has appeared - it will represent your tablet.
 For convenience executing the following steps, you could put the found
 VID/PID pair in a shell variable, like this:
 
-`$ <strong>T=172f:0501</strong>`
+    $ T=172f:0501
 
 The following examples will refer to this shell variable as "\$T" and
 will assume it contains the tablet VID/PID pair. So, if you assign it,
@@ -75,7 +72,7 @@ diagnostics message.
 
 Example:
 
-`$ <strong>sudo lsusb -v -d $T > descriptors.txt</strong>`
+    $ sudo lsusb -v -d $T > descriptors.txt
 
 The above stores the lsusb output in "descriptors.txt" file.
 
@@ -85,7 +82,7 @@ VID:PID" and attach the output to the diagnostics message.
 
 Example:
 
-`$ <strong>sudo usbhid-dump -ed -m $T > hid_report_descriptors.txt</strong>`
+    $ sudo usbhid-dump -ed -m $T > hid_report_descriptors.txt
 
 The above stores the usbhid-dump output in
 "hid\_report\_descriptors.txt" file.
@@ -107,23 +104,23 @@ it.
 
 Example:
 
-`$ <strong>sudo usbhid-dump -es -m $T | tee frame_wheel_srolling.txt</strong>`\
-`Starting dumping interrupt transfer stream`\
-`with 1 minute timeout.`\
-\
-`005:002:000:STREAM             1331485997.649152`\
-` 01 00 00 00 FF 00 00 00`\
-\
-`005:002:000:STREAM             1331485999.213131`\
-` 01 00 00 00 01 00 00 00`\
-\
-`005:002:000:STREAM             1331486014.777136`\
-` 01 00 00 00 00 FF 00 00`\
-\
-`005:002:000:STREAM             1331486016.477138`\
-` 01 00 00 00 00 01 00 00`\
-\
-`<strong>^C</strong>`
+    $ sudo usbhid-dump -es -m $T | tee frame_wheel_srolling.txt
+    Starting dumping interrupt transfer stream
+    with 1 minute timeout.
+
+    005:002:000:STREAM             1331485997.649152
+     01 00 00 00 FF 00 00 00
+
+    005:002:000:STREAM             1331485999.213131
+     01 00 00 00 01 00 00 00
+
+    005:002:000:STREAM             1331486014.777136
+     01 00 00 00 00 FF 00 00
+
+    005:002:000:STREAM             1331486016.477138
+     01 00 00 00 00 01 00 00
+
+    ^C
 
 Here, the displayed stream output will also be stored in
 "frame\_wheel\_srolling.txt" file.
@@ -144,7 +141,7 @@ Make four strokes with the pen, starting from inside the tablet working
 area, slowly moving outside and crossing each border in the following
 (clockwise) order: top, right, bottom, left.
 
-`$ <strong>sudo usbhid-dump -es -m $T | tee pen_coords.txt</strong>`
+    $ sudo usbhid-dump -es -m $T | tee pen_coords.txt
 
 [Video](http://youtu.be/ysYk8KLY98U)
 
@@ -161,7 +158,7 @@ it back. It is OK if the pen tip is lifted during tilting, it is just
 unnecessary to tilt further than that. Please tilt towards the borders
 in the following (clockwise) order: top, right, bottom, left.
 
-`$ <strong>sudo usbhid-dump -es -m $T | tee pen_tilt.txt</strong>`
+    $ sudo usbhid-dump -es -m $T | tee pen_tilt.txt
 
 [Video](http://youtu.be/h11zK-p_h4w)
 
@@ -172,7 +169,7 @@ tablet surface with the strength appropriate for the full pressure -
 press it until it stops sliding into the pen and then press a little
 more. Please don't press hard enough to break the tip.
 
-`$ <strong>sudo usbhid-dump -es -m $T | tee pen_pressure.txt</strong>`
+    $ sudo usbhid-dump -es -m $T | tee pen_pressure.txt
 
 [Video](http://youtu.be/cukrOS5MKyA)
 
@@ -185,7 +182,7 @@ lower button, then the upper. It doesn't matter if the pen tip touches
 anything in between presses, it is only important it doesn't touch
 anything at the same time as pressing the buttons.
 
-`$ <strong>sudo usbhid-dump -es -m $T | tee pen_buttons.txt</strong>`
+    $ sudo usbhid-dump -es -m $T | tee pen_buttons.txt
 
 [Video](http://youtu.be/2NC4c2x33ZE)
 
@@ -209,7 +206,7 @@ Touch-based sensor dials could be acting as directional buttons in some
 modes. In such cases, please press every direction in this (clockwise)
 order: top, right, bottom, left.
 
-`$ <strong>sudo usbhid-dump -es -m $T | tee frame_dials.txt</strong>`
+    $ sudo usbhid-dump -es -m $T | tee frame_dials.txt
 
 [Video](http://youtu.be/jXBZH7D3_7k)
 
@@ -227,7 +224,7 @@ the working area, please press first the buttons on the left, then those
 on the right. Although these buttons are intended to be equally used by
 left and right hand, they may produce different key codes.
 
-`$ <strong>sudo usbhid-dump -es -m $T | tee frame_buttons.txt</strong>`
+    $ sudo usbhid-dump -es -m $T | tee frame_buttons.txt
 
 [Video](http://youtu.be/z8i17sFSUW8)
 
@@ -242,7 +239,7 @@ border in turn, in this (clockwise) order: top, right, bottom, left. It
 may be more convenient to hold the mouse by its sides so it is easier to
 lift a little over the bezel edge.
 
-`$ <strong>sudo usbhid-dump -es -m $T | tee mouse_coords.txt</strong>`
+    $ sudo usbhid-dump -es -m $T | tee mouse_coords.txt
 
 [Video](http://youtu.be/iooZjBENDqc)
 
@@ -251,7 +248,7 @@ lift a little over the bezel edge.
 Place the mouse within the working area and then click each button in
 turn in this order: left, right, middle.
 
-`$ <strong>sudo usbhid-dump -es -m $T | tee mouse_buttons.txt</strong>`
+    $ sudo usbhid-dump -es -m $T | tee mouse_buttons.txt
 
 [Video](http://youtu.be/z7KO2SGkPRA)
 
@@ -264,7 +261,7 @@ wheels.
 Place the mouse within the working area and rotate (rock) the wheel,
 first away from you, then towards you.
 
-`$ <strong>sudo usbhid-dump -es -m $T | tee mouse_wheel.txt</strong>`
+    $ sudo usbhid-dump -es -m $T | tee mouse_wheel.txt
 
 [Video](http://youtu.be/kfWpgHXqKyg)
 
