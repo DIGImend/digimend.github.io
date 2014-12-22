@@ -28,6 +28,11 @@ Troubleshooting
 [2]: http://sourceforge.net/p/digimend/mailman/digimend-users/
 [3]: https://lists.sourceforge.net/lists/listinfo/digimend-users
 
+Miscellaneous
+-------------
+
+[Vocabulary](misc/vocabulary)
+
 Maillist
 --------
 We maintain a general user support maillist at
