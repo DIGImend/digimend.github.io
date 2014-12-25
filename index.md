@@ -69,5 +69,5 @@ hardware or donating money for buying it:
     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
 
-Even 10 Euro would make it easier to buy an occasional problematic tablet to
+Even 10 euro would make it easier to buy an occasional problematic tablet to
 figure out that initialization sequence or a bug in the driver. Thank you!
