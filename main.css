@@ -132,6 +132,12 @@ strong {
   font-weight: bold;
 }
 
+sup {
+  vertical-align: super;
+  font-size: smaller;
+  padding-left: 3px;
+}
+
 img {
   position: relative;
   margin: 0 auto;

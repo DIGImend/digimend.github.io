@@ -82,10 +82,10 @@ comparing appearance and specifications.
 
 Most of the "sold as" models listed on the [Tablets](/tablets)
 page and individual tablet pages have been guessed that way. Such models have
-"" mark after their name. If someone confirms the guess, the mark is removed.
-If the guess is disproved, the tablet is removed from the "sold as" list and
-then, if the correct original model becomes known, added to the appropriate
-one.
+"<sup>guess</sup>" mark after their name. If someone confirms the guess, the
+mark is removed.  If the guess is disproved, the tablet is removed from the
+"sold as" list and then, if the correct original model becomes known, added to
+the appropriate one.
 
 RPS
 ---

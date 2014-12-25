@@ -31,7 +31,8 @@
                     <li>{{n}}</li>
                 {% endfor %}
                 {% for n in include.page.maybe_sold_as %}
-                    <li>{{n}} (?)</li>
+                    <li>{{n}}<sup><a href="/support/misc/vocabulary/#rebranded-tablets"
+                                     title="Guessed rebranded tablet">guess</a></sup></li>
                 {% endfor %}
             </ul>
         </td>
