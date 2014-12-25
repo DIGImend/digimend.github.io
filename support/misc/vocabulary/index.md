@@ -76,12 +76,14 @@ such tablets still to be found.
 
 ### Identifying original model
 
-The USB vendor and product ID identify original tablet model. However,
-very often, tablet identity could be guessed with high probability, by
-comparing appearance and specifications.
+In the past, the original model of a tablet was easily identifiable by looking
+at the USB vendor and product IDs it reports. Lately, however, some
+manufacturers, such as Huion and Ugee, have started re-using product IDs in
+different models. Still, very often, tablet identity can be guessed with high
+probability, by comparing appearance and specifications.
 
-Most of the "sold as" models listed on the [Tablets](/tablets)
-page and individual tablet pages have been guessed that way. Such models have
+Many of the "sold as" models listed on the [Tablets](/tablets) page and
+individual tablet pages have been guessed that way. Such models have
 "<sup>guess</sup>" mark after their name. If someone confirms the guess, the
 mark is removed.  If the guess is disproved, the tablet is removed from the
 "sold as" list and then, if the correct original model becomes known, added to
