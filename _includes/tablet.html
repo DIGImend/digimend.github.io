@@ -37,7 +37,10 @@
                             <li>Linux kernel {{page.supported_in.kernel}}</li>
                         {% endunless %}
                         {% unless page.supported_in.digimend == null %}
-                            <li>digimend-kernel-drivers {{page.supported_in.digimend}}</li>
+                            <li>
+                                <a href="/drivers#digimend-kernel-drivers">digimend-kernel-drivers</a>
+                                {{page.supported_in.digimend}}
+                            </li>
                         {% endunless %}
                         {% unless page.supported_in.wacom == null %}
                             <li>xf86-input-wacom {{page.supported_in.wacom}}</li>
