@@ -53,10 +53,10 @@
         <th>Specs</th>
         <td>
             {{page.working_area.width}}&Prime;&times;{{page.working_area.height}}&Prime;,
-            {{page.working_area.resolution}} LPI{% unless page.report_rate == null %},
-                {{page.report_rate}} RPS
+            {{page.working_area.resolution}} <a href="{{ site.baseurl }}/support/misc/vocabulary/#lpi" title="Lines per inch">LPI</a>{% unless page.report_rate == null %},
+            {{page.report_rate}} <a href="{{ site.baseurl }}/support/misc/vocabulary/#rps" title="Reports per second">RPS</a>
             {% endunless %},
-            {{page.pen.pressure_levels}} PL{% if page.pen.tilt_detection %},
+            {{page.pen.pressure_levels}} <a href="{{ site.baseurl }}/support/misc/vocabulary/#pl" title="Pressure Levels">PL</a>{% if page.pen.tilt_detection %},
                 tilt-sensitive
             {% endif %}{% unless page.mouse == null %},
                 {{page.mouse}} mouse
