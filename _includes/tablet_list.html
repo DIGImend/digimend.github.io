@@ -34,7 +34,7 @@
 
 {% endcomment %}
 {% for vendor in vendor_list %}
-<h2>{{vendor}}</h2>
+<h2 id="{{vendor | downcase}}">{{vendor}}</h2>
 
 <table class="tablet_list">
     <thead>
