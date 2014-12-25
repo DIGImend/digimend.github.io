@@ -129,6 +129,6 @@ companies, including Genius, Trust, Aiptek, and many others.
 
 ### Cooperation
 
-The DIGI*mend* project has contacted Waltop in the beginning of 2012 and
+The DIGImend project has contacted Waltop in the beginning of 2012 and
 the company agreed to provide tablet samples and information. So far two
 samples were received with possibly more to come.
