@@ -1,5 +1,6 @@
 ---
 title: Vocabulary
+summary: A vocabulary of various terms and names used throughout the website
 ---
 
 Huion

@@ -30,8 +30,10 @@ Troubleshooting
 
 Miscellaneous
 -------------
-
-[Vocabulary](misc/vocabulary)
+<dl>
+{% assign misc_dir = page.url | remove: 'index.html' | append: 'misc/' %}
+{% include pi parent_dir=misc_dir include="pt_d.html" %}
+</dl>
 
 Maillist
 --------
