@@ -49,8 +49,8 @@ tablet working area is able to sense within one inch in either
 direction. Higher LPI along with higher [RPS](#rps) allow more
 precise following of the pen movement and thus, smoother curves.
 
-The tablets have the same resolution in either direction. However, [some
-of them](/tablets "Waltop Media Tablet 14.1") may limit pen coordinates
+The tablets have the same resolution in either direction. However, [some of
+them](/tablets/Waltop_Sirius_Battery_Free_Tablet/) may limit pen coordinates
 to some number in both directions in compatibility modes, resulting in
 different resolutions.
 
@@ -80,7 +80,7 @@ The USB vendor and product ID identify original tablet model. However,
 very often, tablet identity could be guessed with high probability, by
 comparing appearance and specifications.
 
-Most of the "sold as" models listed on the [Tablet support status](/tablets)
+Most of the "sold as" models listed on the [Tablets](/tablets)
 page and individual tablet pages have been guessed that way. Such models have
 "" mark after their name. If someone confirms the guess, the mark is removed.
 If the guess is disproved, the tablet is removed from the "sold as" list and
