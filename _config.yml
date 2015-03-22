@@ -1,4 +1,6 @@
 url: http://digimend.github.io
+gems:
+    - jekyll-redirect-from
 defaults:
     -
         scope:
