@@ -1,3 +1,11 @@
+{% comment %}
+
+    Output tablet list, with tablets grouped by vendor and optionally filtered
+    by driver support
+
+    @param arg1         Driver to filter by
+
+{% endcomment %}
 {{content}}
 
 <p>
@@ -21,7 +29,9 @@
     {% assign p_dir = p.url | remove: 'index.html' %}
     {% if p_dir contains "/tablets/" and p_dir != "/tablets/" %}
         {% unless vendor_list_str contains p.vendor %}
-            {% capture vendor_list_str %}{{vendor_list_str}} {{p.vendor}}{% endcapture %}
+            {% if include.arg1 == null or p.supported and p.supported_in[include.arg1] != null %}
+                {% capture vendor_list_str %}{{vendor_list_str}} {{p.vendor}}{% endcapture %}
+            {% endif %}
         {% endunless %}
     {% endif %}
 {% endfor %}
@@ -45,7 +55,7 @@
         </tr>
     </thead>
     <tbody>
-        {% include pi parent_dir="/tablets/" orderby="product" include="pt_vt.html" include_arg1=vendor %}
+        {% include pi parent_dir="/tablets/" orderby="product" include="pt_t.html" include_arg1=vendor include_arg2=include.arg1 %}
     </tbody>
 </table>
 {% endfor %}

@@ -1,13 +1,15 @@
 {% comment %}
 
-    Output iterated page as a vendor's tablet.
+    Output iterated page as a vendor or driver-filtered tablet.
 
     @param page         Page being iterated over
     @param page_dir     Page dir being iterated over
-    @param arg1         Vendor to filter by
+    @param arg1         Vendor to filter by, optional
+    @param arg2         Driver to filter by, optional
 
 {% endcomment %}
-{% if include.page.vendor == include.arg1 %}
+{% if include.arg1 == null or include.page.vendor == include.arg1 %}
+{% if include.arg2 == null or include.page.supported and include.page.supported_in[include.arg2] != null %}
     {% if include.page.supported == true %}
         {% assign pt_vt_status_class = "status-supported" %}
     {% elsif include.page.supported == false %}
@@ -64,4 +66,5 @@
             {% endif %}
         </td>
     </tr>
+{% endif %}
 {% endif %}
