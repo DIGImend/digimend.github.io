@@ -19,7 +19,7 @@
 {% comment %} For each tablet page {% endcomment %}
 {% for p in site.pages %}
     {% assign p_dir = p.url | remove: 'index.html' %}
-    {% if p_dir contains page_dir and p_dir != page_dir %}
+    {% if p_dir contains "/tablets/" and p_dir != "/tablets/" %}
         {% unless vendor_list_str contains p.vendor %}
             {% capture vendor_list_str %}{{vendor_list_str}} {{p.vendor}}{% endcapture %}
         {% endunless %}
@@ -45,7 +45,7 @@
         </tr>
     </thead>
     <tbody>
-        {% include pi parent_dir=page_dir orderby="product" include="pt_vt.html" include_arg1=vendor %}
+        {% include pi parent_dir="/tablets/" orderby="product" include="pt_vt.html" include_arg1=vendor %}
     </tbody>
 </table>
 {% endfor %}
