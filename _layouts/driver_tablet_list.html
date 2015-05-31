@@ -1,0 +1,8 @@
+{% comment %}
+    
+    Extract driver name from URL and
+    output tablet list filtered by driver's support
+
+{% endcomment %}{% assign url_item_list = page.url | split:'/' %}{% comment %}
+{% endcomment %}{% assign driver = url_item_list[2] %}{% comment %}
+{% endcomment %}{% include page.html title=page.title include="tablet_list.html" include_arg1=driver %}

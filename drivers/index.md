@@ -13,7 +13,7 @@ digimend-kernel-drivers
 To make it easier to develop and test new kernel drivers, and to let people
 running older kernels use their new tablets, we're maintainig an [out-of-tree
 driver package][11] (previously named "huion-driver"). It works on v3.5 and
-later kernels and supports a variety of tablets listed in its [README.md][12].
+later kernels and [supports a variety of tablets](/drivers/digimend/tablets/).
 
 Latest release
 : [digimend-kernel-drivers v5][19] - Aug 19, 2014
