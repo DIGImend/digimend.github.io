@@ -1,4 +1,17 @@
 <!DOCTYPE html>
+{% comment %}
+
+    General page template.
+
+    @param title        Page title
+    @param include      The template to include instead of content
+    @param include_arg1 Include argument #1.
+    @param include_arg2 Include argument #2.
+    @param include_arg3 Include argument #3.
+    @param include_arg4 Include argument #4.
+    @param include_arg5 Include argument #5.
+
+{% endcomment %}
 <html>
 
   <head>
@@ -58,7 +71,7 @@
         </a>
         <h1>{{include.title}}</h1>
         {% if include.include != null %}
-            {% include {{include.include}} %}
+            {% include {{include.include}} arg1=include.include_arg1 arg2=include.include_arg2 arg3=include.include_arg3 arg4=include.include_arg4 arg5=include.include_arg5 %}
         {% else %}
             {{ content }}
         {% endif %}
