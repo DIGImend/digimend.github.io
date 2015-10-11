@@ -16,11 +16,11 @@ driver package][11] (previously named "huion-driver"). It works on v3.5 and
 later kernels and [supports a variety of tablets](/drivers/digimend/tablets/).
 
 Latest release
-: [digimend-kernel-drivers v5][19] - Aug 19, 2014
+: [digimend-kernel-drivers v6][19] - Oct 11, 2015
 
 [11]: https://github.com/DIGImend/digimend-kernel-drivers
 [12]: https://github.com/DIGImend/digimend-kernel-drivers/blob/master/README.md
-[19]: https://github.com/DIGImend/digimend-kernel-drivers/releases/tag/v5
+[19]: https://github.com/DIGImend/digimend-kernel-drivers/releases/tag/v6
 
 digimend-kernel-patches
 ----------------------
