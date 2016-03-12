@@ -79,7 +79,7 @@ Then to compile run the following commands:
     sudo apt-get install build-essential xutils-dev xutils \
                  libx11-dev libxext-dev xautomation xinput \
                  xserver-xorg-dev autoconf libtool pkg-config
-    cd xserver-xorg-input-wizardpen_0.8.1
+    cd xserver-xorg-input-wizardpen-0.8.1
     ./autogen.sh --prefix=/usr
     make
     sudo make install
