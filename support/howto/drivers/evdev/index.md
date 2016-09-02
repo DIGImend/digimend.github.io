@@ -169,7 +169,7 @@ driver, are:
            MatchProduct "keyword"
            MatchDevicePath "/dev/input/event*"
            # Apply custom Options below.
-    EndSection </pre>
+    EndSection
 
 -   there are no applicable options for the **"evdev keyboard
     catchall"** snippet so one isn't included
