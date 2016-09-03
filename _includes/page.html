@@ -70,6 +70,13 @@
             <span class="octicon octicon-issue-opened"></span>
         </a>
         <h1>{{include.title}}</h1>
+        <div style="border: 1px solid #0090ff; border-radius: 2px; padding: 1em; margin-bottom: 0.5em;">
+            NOTE: The DIGImend project maintainer is
+            <a href="http://spbnick.github.io/2016/07/31/Wrapping-up-DIGImend-work.html">leaving the project</a>
+            in November 2016. Currently no work on supporting new tablets is
+            done, and user support is done by community only. Replacement
+            maintainers are welcome.
+        </div>
         {% if include.include != null %}
             {% include {{include.include}} arg1=include.include_arg1 arg2=include.include_arg2 arg3=include.include_arg3 arg4=include.include_arg4 arg5=include.include_arg5 %}
         {% else %}
