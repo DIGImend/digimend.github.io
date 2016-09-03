@@ -60,14 +60,4 @@ comprehensive information](/support/howto/trbl/diagnostics) on unsupported
 tablets, [improving this
 website](https://github.com/DIGImend/digimend.github.io), contributing code to
 our [drivers](/drivers) and [tools](/devel) and by contributing graphics tablet
-hardware or donating money for buying it:
-
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-    <input type="hidden" name="cmd" value="_s-xclick">
-    <input type="hidden" name="hosted_button_id" value="DU5ZBLPVUD2EC">
-    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
-
-Even 10 euro would make it easier to buy an occasional problematic tablet to
-figure out that initialization sequence or a bug in the driver. Thank you!
+hardware.
