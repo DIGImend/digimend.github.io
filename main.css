@@ -416,16 +416,34 @@ header nav span {
   background: #f2f2f2;
 }
 
-.tool {
-  font-size: 12px;
+#top_tool_drawer {
   display: block;
   float: right;
-  padding: 4px 6px 4px 6px;
+  margin: 26px 0px 0 4px;
+}
+
+#bottom_tool_drawer {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.tool {
   font-weight: 700;
   border-radius: 2px;
-  margin: 25px 0px 0 4px;
   background-color: #0090ff;
   color: #f2f2f2;
+  padding: 8px 6px 4px 6px;
+}
+
+#top_tool_drawer .tool {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+#bottom_tool_drawer .tool {
+  font-size: 16px;
+  margin: 0 10px 0 10px;
+  padding: 9px 7px 5px 7px;
 }
 
 .tool:hover, .tool:focus {
