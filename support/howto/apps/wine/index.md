@@ -39,7 +39,3 @@ More information
 
 You can find more information about Wine on the [official website of the
 software](http://www.winehq.org/).
-
-If you have any questions or suggestions according to this article
-please send an email to the [DIGI*mend* users mailing
-list](mailto:digimend-users@lists.sourceforge.net).

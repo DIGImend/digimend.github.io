@@ -195,7 +195,3 @@ More information
 
 You can find more information about GIMP on the [official
 website](http://www.gimp.org/).
-
-If you have any questions or suggestions concerning this article please
-e-mail the DIGI*mend* users mailing list [DIGI*mend* users mailing
-list](mailto:digimend-users@lists.sourceforge.net).

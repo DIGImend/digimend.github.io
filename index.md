@@ -53,9 +53,9 @@ into the hands of beginner and experienced artists alike.
 How to Help
 -----------
 
-You can help the DIGImend project by supporting users on the
-[digimend-users](https://lists.sourceforge.net/lists/listinfo/digimend-users)
-maillist, contributing new and updating old [HOWTOs](/support), [providing
+You can help the DIGImend project by helping users resolve their [issues on
+GitHub](https://github.com/DIGImend/digimend-kernel-drivers/issues),
+contributing new and updating old [HOWTOs](/support), [providing
 comprehensive information](/support/howto/trbl/diagnostics) on unsupported
 tablets, [improving this
 website](https://github.com/DIGImend/digimend.github.io), contributing code to
