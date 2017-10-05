@@ -5,7 +5,7 @@ summary: How to collect diagnostics to help make a driver
 You can follow these steps to collect information which can help make a driver
 for your tablet.
 
-However, the DIGImend project doesn't have the capacity to process
+Note that the DIGImend project doesn't have the capacity to process
 all diagnostics and make drivers for all possible tablets, so we cannot
 promise that any drivers will be made for the tablet in question.
 
