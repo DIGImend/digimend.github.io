@@ -2,10 +2,8 @@
 title: Collecting tablet diagnostics
 summary: How to collect diagnostics to help make a driver
 ---
-You can follow these steps to collect information which can help make a
-driver for your tablet. Please send the resulting files to the
-[DIGImend-devel](mailto:DIGImend-devel@lists.sourceforge.net?subject=Tablet%20diagnostics)
-maillist.
+You can follow these steps to collect information which can help make a driver
+for your tablet.
 
 However, the DIGImend project doesn't have the capacity to process
 all diagnostics and make drivers for all possible tablets, so we cannot
@@ -257,12 +255,10 @@ first away from you, then towards you.
 
 {% include video.html id="kfWpgHXqKyg" %}
 
-Send the results
+Post the results
 ----------------
 
-Please attach the resulting files to a message, either separately or in
-an archive, and send to the
-[DIGImend-devel](mailto:DIGImend-devel@lists.sourceforge.net?subject=Tablet%20diagnostics)
-maillist. Also please be sure to mention the tablet manufacturer and
-model name.
-
+Once you're done, attach the resulting files to the relevant
+[digimend-kernel-drivers issue on GitHub](https://github.com/DIGImend/digimend-kernel-drivers/issues), or
+[create a new one](https://github.com/DIGImend/digimend-kernel-drivers/issues/new).
+Make sure to mention the tablet manufacturer and model name.
