@@ -61,3 +61,9 @@ tablets, [improving this
 website](https://github.com/DIGImend/digimend.github.io), contributing code to
 our [drivers](/drivers) and [tools](/devel) and by contributing graphics tablet
 hardware.
+
+Last, but not least: consider
+[becoming a patron](https://www.patreon.com/bePatron?c=930980) of the project
+founder, maintainer and main developer,
+[Nikolai Kondrashov](https://www.patreon.com/spbnick), on Patreon. Your
+support will help make more tablets work on Linux!

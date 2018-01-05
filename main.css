@@ -97,6 +97,7 @@ p {
 }
 
 footer p {
+  padding-top: 5px;
   color: #f2f2f2;
 }
 
@@ -138,7 +139,7 @@ sup {
   padding-left: 3px;
 }
 
-img {
+.main_content img {
   position: relative;
   margin: 0 auto;
   max-width: 739px;
@@ -438,6 +439,12 @@ header nav span {
 #top_tool_drawer .tool {
   font-size: 12px;
   font-weight: 700;
+}
+
+#become_a_patron_button {
+  display: block;
+  float: left;
+  margin-right: 16px;
 }
 
 #bottom_tool_drawer .tool {
