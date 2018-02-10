@@ -61,3 +61,11 @@ Latest release
 
 [evdev-dump-home]: https://github.com/DIGImend/evdev-dump
 [evdev-dump-latest]: https://github.com/DIGImend/evdev-dump/releases/tag/1.0
+
+Live streams
+------------
+Nikolai Kondrashov streams some of his work on the project to YouTube.
+View his past recordings on
+[the DIGImend project channel][digimend-youtube-channel].
+
+[digimend-youtube-channel]: https://www.youtube.com/channel/UCioG-vCm2WB6nSz0Y0JTXoA
