@@ -1,7 +1,8 @@
 DIGImend website
 ================
 
-This is the DIGImend project website, normally accessible at [http://digimend.github.io](http://digimend.github.io).
+This is the DIGImend project website, normally accessible
+at [http://digimend.github.io](http://digimend.github.io).
 
 After cloning this repository, run
 
@@ -13,12 +14,20 @@ followed by
 
 to checkout the tablets submodule repository.
 
-To view the site locally install Jekyll:
+Install ruby-dev, and zlib1g-dev
 
-    gem install jekyll
+    sudo apt-get install ruby-dev zlib1g-dev
 
-start the server:
+Install Bundler:
 
-    jekyll serve
+    gem install bundler
+
+Install Jekyll and other dependencies from the GitHub Pages gem:
+
+    bundle install
+
+Run your Jekyll site locally:
+
+    bundle exec jekyll serve
 
 and open the printed URL (usually [http://0.0.0.0:4000/](http://0.0.0.0:4000/)).
