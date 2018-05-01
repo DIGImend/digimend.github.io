@@ -16,7 +16,7 @@
 </p>
 
 {% assign page_dir = page.url | remove: 'index.html' %}
-{% assign sorted_pages = site.pages | sort:'PID' %}
+{% assign sorted_pages = site.html_pages | sort:'PID' %}
 
 {% comment %}
 
@@ -25,7 +25,7 @@
 {% endcomment %}
 {% assign vendor_list_str = "" %}
 {% comment %} For each tablet page {% endcomment %}
-{% for p in site.pages %}
+{% for p in site.html_pages %}
     {% assign p_dir = p.url | remove: 'index.html' %}
     {% if p_dir contains "/tablets/" and p_dir != "/tablets/" %}
         {% unless vendor_list_str contains p.vendor %}

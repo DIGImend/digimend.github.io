@@ -63,7 +63,7 @@
 
                     For each sorted page
 
-{% endcomment %}{%  assign pi_pages = site.pages | sort:pi_orderby %}{% comment %}
+{% endcomment %}{%  assign pi_pages = site.html_pages | sort:pi_orderby %}{% comment %}
 {% endcomment %}{%  for pi_p in pi_pages %}{% comment %}
 
                         Determine iterated page dir parameters
