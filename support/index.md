@@ -3,6 +3,14 @@ title: Support
 weight: 30
 ---
 
+If you have any problems with [our out-of-tree drivers][digimend-kernel-drivers],
+look for solutions and report new issues at [the issues page on
+GitHub][issues]. Join the [#DIGImend channel on irc.freenode.net][irc_channel]
+to discuss the drivers, tablets, development, to ask for help, and to help
+others!
+
+Read on for HOWTOs and other support articles.
+
 X.org driver setup
 ------------------
 <dl>
@@ -30,3 +38,7 @@ Miscellaneous
 {% assign misc_dir = page.url | remove: 'index.html' | append: 'misc/' %}
 {% include pi parent_dir=misc_dir include="pt_d.html" %}
 </dl>
+
+[digimend-kernel-drivers]: https://github.com/DIGImend/digimend-kernel-drivers
+[issues]: https://github.com/DIGImend/digimend-kernel-drivers/issues
+[irc_channel]: https://webchat.freenode.net/?channels=DIGImend
