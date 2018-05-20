@@ -1,5 +1,5 @@
 url: http://digimend.github.io
-gems:
+plugins:
     - jekyll-redirect-from
 defaults:
     -
