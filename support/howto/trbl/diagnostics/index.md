@@ -299,4 +299,6 @@ Post the results
 Once you're done, attach the resulting files to the relevant
 [digimend-kernel-drivers issue on GitHub](https://github.com/DIGImend/digimend-kernel-drivers/issues), or
 [create a new one](https://github.com/DIGImend/digimend-kernel-drivers/issues/new).
-Make sure to mention the tablet manufacturer and model name.
+Make sure to mention the tablet manufacturer and model name, and add a link to
+the product page, e.g. on the website you bought it from, or on manufacturer's
+website.
