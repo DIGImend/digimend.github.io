@@ -18,6 +18,9 @@ driver, which will stop your terminal from receiving the input.
 You will need "lsusb" and "usbhid-dump" utilities which are both
 included into "usbutils" package, available in most distributions.
 
+You will also need the "uclogic-probe" utility, which is a part of the
+["uclogic-tools" package](https://github.com/DIGImend/uclogic-tools).
+
 Identify original model
 -----------------------
 
@@ -78,6 +81,41 @@ Example:
 
 The above stores the usbhid-dump output in
 "hid\_report\_descriptors.txt" file.
+
+Attempt retrieving UC-Logic parameters
+--------------------------------------
+
+Many tablets on the market today (e.g. Huion, Ugee, and XP-Pen) are based on
+UC-Logic hardware, which uses a certain protocol for exposing tablet
+parameters. Having that information is necessary to implement support for
+such tablets in the DIGImend drivers.
+
+You can use the "uclogic-probe" tool from the ["uclogic-tools"
+package](https://github.com/DIGImend/uclogic-tools) to try to retrieve those
+parameters. There is no harm in using it on tablets which are not based on
+UC-Logic hardware. OTOH it is important to run "uclogic-probe" before
+proceeding to collecting input samples, as they can change as a result of
+running it.
+
+First, determine the USB bus your tablet is connected to and the device
+number it was assigned:
+
+    $ lsusb -d $T
+    Bus 001 Device 006: ID 256c:006e  
+
+The above output shows that the tablet is attached to bus 1 and has device
+number 6.
+
+Then, run "uclogic-probe" supplying the bus and device numbers as
+the arguments, and saving the output to file "probe.txt":
+
+    $ sudo uclogic-probe 1 6 | tee probe.txt
+    S C8 13 03 A8 AC 00 D0 6B 00 FF 1F D8 13 03 08 00 00 04 00 40
+    S C9 24 03 48 00 55 00 49 00 4F 00 4E 00 5F 00 54 00 31 00 37 00 32 00 5F 00 31 00 38 00 30 00 36 00 30 00 34 00
+    S CA 46 03 48 00 55 00 49 00 4F 00 4E 00 20 00 41 00 6E 00 69 00 6D 00 61 00 74 00 69 00 6F 00 6E 00 20 00 54 00 65 00 63 00 68 00 6E 00 6F 00 6C 00 6F 00 67 00 79 00 20 00 43 00 6F 00 2E 00 2C 00 6C 00 74 00 64 00
+
+NOTE: Instead of using "1" and "6" as shown above, substitute the numbers you
+found in the previous step.
 
 Collect raw input samples
 -------------------------
