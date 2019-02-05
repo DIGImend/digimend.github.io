@@ -5,7 +5,7 @@ weight: 20
 We strive to submit all drivers and fixes to upstream projects, including the
 Linux kernel, xf86-input-evdev and xf86-input-wacom. However, to support
 people running older software we maintain an out-of-tree kernel driver
-package and two patch packages: for kernel and xf86-input-evdev.
+package.
 
 digimend-kernel-drivers
 -----------------------
