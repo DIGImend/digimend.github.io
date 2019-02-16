@@ -441,10 +441,13 @@ header nav span {
   font-weight: 700;
 }
 
-#become_a_patron_button {
-  display: block;
-  float: left;
-  margin-right: 16px;
+footer {
+    text-align: center;
+}
+
+footer img {
+    height: 40px;
+    padding: 0 16px;
 }
 
 #bottom_tool_drawer .tool {
