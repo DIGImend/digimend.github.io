@@ -42,7 +42,7 @@ First, find out the vendor and product IDs of your tablet, commonly
 abbreviated to VID and PID, and represented as a pair of 4-digit hexadecimal
 numbers with a colon in between. You can see each tablet having them on our
 [tablets][tablets] page. For example, [KYE EasyPen i405X][KYE_EasyPen_i405X]
-has VID:PID of 0458:5010, but e.g. all Huion tablets share the same VID:PID
+has VID:PID of 0458:5010, but e.g. most Huion tablets share the same VID:PID
 of 256c:006e (in abuse of the USB standard).
 
 To find the VID:PID of your tablet, simply disconnect it from your computer,
