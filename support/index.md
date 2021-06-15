@@ -5,7 +5,7 @@ weight: 30
 
 If you have any problems with [our out-of-tree drivers][digimend-kernel-drivers],
 look for solutions and report new issues at [the issues page on
-GitHub][issues]. Join the [#DIGImend channel on irc.freenode.net][irc_channel]
+GitHub][issues]. Join the [#DIGImend channel on irc.libera.chat][irc_channel]
 to discuss the drivers, tablets, development, to ask for help, and to help
 others!
 
@@ -41,4 +41,4 @@ Miscellaneous
 
 [digimend-kernel-drivers]: https://github.com/DIGImend/digimend-kernel-drivers
 [issues]: https://github.com/DIGImend/digimend-kernel-drivers/issues
-[irc_channel]: https://webchat.freenode.net/?channels=DIGImend
+[irc_channel]: https://web.libera.chat/#DIGImend
