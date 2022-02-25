@@ -45,8 +45,6 @@ of Wacom Cintiq, but for $500. And they allow creating quite impressive art:
 
 {% include video.html id="BPcjDcYmeY4" %}
 
-{% include video.html id="l5cMPn0NSnQ" %}
-
 The DIGImend project works to get affordable graphics tablets and software
 into the hands of beginner and experienced artists alike.
 
