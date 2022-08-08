@@ -16,11 +16,11 @@ driver package][11]. It works on v3.5 and later kernels and [supports a
 variety of tablets](/drivers/digimend/tablets/).
 
 Latest release
-: [digimend-kernel-drivers v10][19] - OCt 04, 2020
+: [digimend-kernel-drivers v11][19] - Aug 08, 2022
 
 [11]: https://github.com/DIGImend/digimend-kernel-drivers
 [12]: https://github.com/DIGImend/digimend-kernel-drivers/blob/master/README.md
-[19]: https://github.com/DIGImend/digimend-kernel-drivers/releases/tag/v10
+[19]: https://github.com/DIGImend/digimend-kernel-drivers/releases/tag/v11
 
 digimend-kernel-patches
 ----------------------
