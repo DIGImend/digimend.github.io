@@ -304,6 +304,19 @@ paired options in your custom xorg.conf.d .conf file:
     Option "InvertX" "on"
     Option "InvertY" "on"
 
+### Left handed tablet orientation with dual monitor set up
+
+If you are left handed and have a dual monitor set up you may want to flip
+the tablet and confine the stylus to one screen.
+
+***Left monitor***
+
+    xinput set-prop "device name" --type=float "Coordinate Transformation Matrix" -0.5 0 0.5 0 -1 1 0 0 1
+
+***Right monitor***
+
+    xinput set-prop "device name" --type=float "Coordinate Transformation Matrix" -0.5 0 1 0 -1 1 0 0 1
+
 Runtime script
 --------------
 
